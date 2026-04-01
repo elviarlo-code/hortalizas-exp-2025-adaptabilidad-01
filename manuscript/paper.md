@@ -23,16 +23,15 @@ Hidroponía NFT, hortalizas de hoja, solución nutritiva, rendimiento, producci�
 
 ## II. RESUMEN
 
+La presente investigación tuvo como objetivo evaluar comparativamente el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja (lechuga crespa, lechuga de seda, acelga y cebolla china) cultivadas en sistema hidropónico NFT, en condiciones de la costa norte del Perú.
 
-La presente investigación tuvo como objetivo evaluar comparativamente el rendimiento, calidad y desarrollo vegetativo de tres hortalizas de hoja (lechuga, cebolla china y acelga) cultivadas en sistema hidropónico NFT bajo diferentes soluciones nutritivas, en condiciones de la costa norte del Perú.
+El experimento se desarrolló en cuatro módulos NFT independientes, cada uno equipado con su propio sistema de recirculación y asignado a un tratamiento específico: solución INIA Sumac-Yuyayqui, solución La Molina, solución FAO y solución comercial Hidroponika. En cada módulo se establecieron 80 plantas, distribuidas en cuatro cultivos con 20 plantas por cultivo.
 
-El experimento se desarrolló en cuatro módulos NFT con capacidad de 80 plantas cada uno, correspondientes a los tratamientos: solución INIA Sumac-Yuyayqui, solución La Molina, solución FAO y solución comercial Hidroponika.
+Para la evaluación biométrica se seleccionaron 5 plantas por cultivo en cada módulo, registrándose variables como altura de planta, número de hojas, diámetro, longitud radicular y peso fresco.
 
-Se evaluaron variables biométricas como altura de planta, número de hojas, diámetro, longitud radicular y peso fresco.
+El análisis de los datos se abordará mediante estadística descriptiva y análisis multivariado (PCA), complementado con análisis exploratorios de contraste entre tratamientos, con el objetivo de identificar patrones de respuesta y diferencias en el desempeño agronómico de las soluciones nutritivas.
 
-El análisis de los datos se realizará mediante estadística inferencial, incluyendo análisis de varianza (ANOVA) y pruebas de comparación múltiple (Tukey), así como análisis multivariado (PCA), con el objetivo de identificar diferencias significativas entre tratamientos y patrones de respuesta integrados.
-
-Se espera que los resultados permitan identificar la solución nutritiva más eficiente en términos de productividad y desarrollo vegetal, contribuyendo al diseño de tecnologías hidropónicas orientadas a la producción de hortalizas inocuas y sostenibles para la agricultura familiar.
+Los resultados permitirán identificar tendencias en la eficiencia productiva de las soluciones evaluadas y su potencial aplicación en sistemas hidropónicos orientados a la producción de hortalizas inocuas para la agricultura familiar.
 
 ---
 
@@ -51,29 +50,45 @@ En este contexto, el presente estudio tuvo como objetivo evaluar el comportamien
 ## IV. MATERIALES Y MÉTODOS
 
 ### 4.1 Sistema experimental
-Se utilizaron 4 módulos hidropónicos NFT, cada uno con 80 plantas, totalizando 320 unidades experimentales.
+El experimento se desarrolló en cuatro módulos hidropónicos NFT independientes, cada uno equipado con su propia bomba y sistema de recirculación de solución nutritiva. Cada módulo estuvo conformado por 8 canales con una capacidad total de 80 plantas.
 
 ### 4.2 Tratamientos
-- T1: INIA Sumac-Yuyayqui  
-- T2: La Molina  
-- T3: FAO  
-- T4: Hidroponika  
+Se evaluaron cuatro soluciones nutritivas, asignadas a un módulo NFT independiente:
+
+- T1: solución INIA Sumac-Yuyayqui  
+- T2: solución La Molina  
+- T3: solución FAO  
+- T4: solución Hidroponika  
 
 ### 4.3 Material vegetal
-- Lechuga (*Lactuca sativa*)  
+En cada módulo se establecieron cuatro cultivos de hortalizas de hoja:
+
+- Lechuga crespa  
+- Lechuga de seda  
+- Acelga (*Beta vulgaris* var. *cicla*)  
 - Cebolla china (*Allium fistulosum*)  
-- Acelga (*Beta vulgaris var. cicla*)  
 
-### 4.4 Variables evaluadas
-- Altura (cm)  
-- Número de hojas  
-- Diámetro (cm)  
-- Longitud radicular (cm)  
-- Peso fresco (g)  
+Cada cultivo estuvo representado por 20 plantas por módulo, totalizando 80 plantas por módulo.
 
-### 4.5 Diseño experimental
-Diseño completamente al azar (DCA) con análisis ANOVA y prueba de Tukey (p < 0.05).
-Adicionalmente, se realizará un análisis multivariado mediante Análisis de Componentes Principales (PCA), con el objetivo de integrar las variables evaluadas y caracterizar el desempeño global de los tratamientos.
+### 4.4 Muestreo y variables evaluadas
+Para las evaluaciones biométricas se seleccionaron 5 plantas por cultivo dentro de cada módulo. Las plantas evaluadas se consideraron submuestras dentro de cada combinación módulo–cultivo.
+
+Las variables evaluadas fueron:
+
+- altura de planta (cm)  
+- número de hojas  
+- diámetro (cm)  
+- longitud radicular (cm)  
+- peso fresco (g)  
+
+### 4.5 Consideraciones del diseño experimental y análisis
+El estudio se planteó como una evaluación comparativa del desempeño agronómico de cuatro soluciones nutritivas bajo condiciones homogéneas de cultivo en sistema NFT, manteniendo constantes las condiciones ambientales y operativas, y variando únicamente la composición de la solución nutritiva entre módulos.
+
+Dado que cada tratamiento fue aplicado a un único módulo independiente, el análisis estadístico se abordará principalmente desde una perspectiva descriptiva y multivariada, complementada con análisis exploratorios de contraste entre tratamientos.
+
+Adicionalmente, se realizará un análisis de componentes principales (PCA) con el objetivo de integrar las variables evaluadas y caracterizar el desempeño global de las soluciones nutritivas.
+
+Las inferencias estadísticas se interpretarán con cautela, reconociendo las limitaciones asociadas a la ausencia de réplica física del tratamiento a nivel de módulo.
 ---
 
 ## V. MARCO TEÓRICO
@@ -96,17 +111,17 @@ La hidroponía reduce el uso de agroquímicos, favoreciendo la producción limpi
 
 ## VI. RESULTADOS Y DISCUSIÓN
 
-El análisis de los datos se abordará mediante un enfoque estadístico integral, considerando tanto métodos univariados como multivariados.
+El análisis de los resultados se abordará mediante un enfoque descriptivo y multivariado, con el objetivo de caracterizar el comportamiento de las soluciones nutritivas evaluadas bajo condiciones controladas de sistema NFT.
 
-En primer lugar, se aplicará un análisis de varianza (ANOVA) para evaluar el efecto de los tratamientos (soluciones nutritivas), los cultivos y su interacción sobre las variables biométricas evaluadas (altura de planta, número de hojas, diámetro, longitud radicular y peso fresco). Posteriormente, se realizará la prueba de comparación múltiple de Tukey (p < 0.05) con el fin de identificar diferencias significativas entre tratamientos.
+Se analizarán las variables biométricas mediante estadística descriptiva, incluyendo medidas de tendencia central y dispersión, con el fin de comparar el desempeño agronómico entre tratamientos y cultivos.
 
-Adicionalmente, se implementará un análisis de componentes principales (PCA) para integrar las variables evaluadas y caracterizar el comportamiento global de los tratamientos. Este enfoque permitirá identificar patrones de respuesta, asociaciones entre variables y agrupamientos de soluciones nutritivas en función de su desempeño agronómico.
+Asimismo, se aplicará un análisis de componentes principales (PCA) para integrar las variables evaluadas y explorar patrones de respuesta, asociaciones entre variables y posibles agrupamientos de tratamientos en función de su desempeño.
 
-Desde un enfoque fisiológico, se espera observar diferencias en la asignación de recursos entre crecimiento estructural (altura) y acumulación de biomasa (peso fresco), lo cual permitiría interpretar la eficiencia metabólica de las soluciones nutritivas evaluadas.
+Desde un enfoque fisiológico, se espera identificar diferencias en la asignación de recursos entre crecimiento estructural (altura) y acumulación de biomasa (peso fresco), lo cual permitirá interpretar la eficiencia de las soluciones nutritivas en términos de productividad.
 
-El análisis conjunto de los resultados permitirá identificar la solución nutritiva con mayor potencial productivo bajo condiciones de sistema NFT, así como su aplicabilidad en esquemas de producción hidropónica orientados a la agricultura familiar.
+Los resultados serán discutidos en el contexto de la nutrición mineral y fisiología vegetal, considerando la disponibilidad y balance de nutrientes, así como su impacto en el crecimiento y desarrollo de las hortalizas de hoja.
 
-Los resultados obtenidos serán discutidos en función de principios de nutrición vegetal y fisiología del crecimiento, considerando la disponibilidad de nutrientes, su absorción y su efecto sobre la producción de biomasa y desarrollo vegetativo.
+El análisis permitirá identificar tendencias en el desempeño de las soluciones nutritivas evaluadas y su potencial aplicación en sistemas hidropónicos orientados a la producción de alimentos inocuos, reconociendo las limitaciones inferenciales del diseño experimental.
 ---
 
 
