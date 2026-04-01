@@ -1,0 +1,65 @@
+cod_tratamiento,tratamiento,cultivo,n,altura_media_cm,hojas_media,diametro_medio_cm,longitud_raiz_media_cm,peso_fresco_medio_g
+T1,FAO,Acelga,0,,,,,
+T1,HIDROPONIKA,Acelga,0,,,,,
+T1,INIA SUMAC-YUYAYQUI,Acelga,5,19.7,9.8,12.1,24.86,157.88
+T1,LA MOLINA,Acelga,0,,,,,
+T1,FAO,Cebolla china,0,,,,,
+T1,HIDROPONIKA,Cebolla china,0,,,,,
+T1,INIA SUMAC-YUYAYQUI,Cebolla china,5,33.46,11.2,4.35,17.86,79.2
+T1,LA MOLINA,Cebolla china,0,,,,,
+T1,FAO,Lechuga crespa,0,,,,,
+T1,HIDROPONIKA,Lechuga crespa,0,,,,,
+T1,INIA SUMAC-YUYAYQUI,Lechuga crespa,5,14.459999999999999,16.4,20.46,21.64,238.6
+T1,LA MOLINA,Lechuga crespa,0,,,,,
+T1,FAO,Lechuga seda,0,,,,,
+T1,HIDROPONIKA,Lechuga seda,0,,,,,
+T1,INIA SUMAC-YUYAYQUI,Lechuga seda,5,12.52,25.4,19.9,22.660000000000004,361.2
+T1,LA MOLINA,Lechuga seda,0,,,,,
+T2,FAO,Acelga,5,22.5,14.0,26.28,25.98,160.8
+T2,HIDROPONIKA,Acelga,0,,,,,
+T2,INIA SUMAC-YUYAYQUI,Acelga,0,,,,,
+T2,LA MOLINA,Acelga,0,,,,,
+T2,FAO,Cebolla china,5,33.46,11.2,4.35,17.86,79.2
+T2,HIDROPONIKA,Cebolla china,0,,,,,
+T2,INIA SUMAC-YUYAYQUI,Cebolla china,0,,,,,
+T2,LA MOLINA,Cebolla china,0,,,,,
+T2,FAO,Lechuga crespa,5,16.56,25.8,18.3,20.44,258.8
+T2,HIDROPONIKA,Lechuga crespa,0,,,,,
+T2,INIA SUMAC-YUYAYQUI,Lechuga crespa,0,,,,,
+T2,LA MOLINA,Lechuga crespa,0,,,,,
+T2,FAO,Lechuga seda,4,12.15,29.0,20.700000000000003,17.400000000000002,256.0
+T2,HIDROPONIKA,Lechuga seda,0,,,,,
+T2,INIA SUMAC-YUYAYQUI,Lechuga seda,0,,,,,
+T2,LA MOLINA,Lechuga seda,0,,,,,
+T3,FAO,Acelga,0,,,,,
+T3,HIDROPONIKA,Acelga,0,,,,,
+T3,INIA SUMAC-YUYAYQUI,Acelga,0,,,,,
+T3,LA MOLINA,Acelga,5,21.68,11.8,28.860000000000003,23.52,137.2
+T3,FAO,Cebolla china,0,,,,,
+T3,HIDROPONIKA,Cebolla china,0,,,,,
+T3,INIA SUMAC-YUYAYQUI,Cebolla china,0,,,,,
+T3,LA MOLINA,Cebolla china,5,23.98,7.6,2.404,11.92,47.760000000000005
+T3,FAO,Lechuga crespa,0,,,,,
+T3,HIDROPONIKA,Lechuga crespa,0,,,,,
+T3,INIA SUMAC-YUYAYQUI,Lechuga crespa,0,,,,,
+T3,LA MOLINA,Lechuga crespa,5,15.48,23.6,19.2,21.139999999999997,226.2
+T3,FAO,Lechuga seda,0,,,,,
+T3,HIDROPONIKA,Lechuga seda,0,,,,,
+T3,INIA SUMAC-YUYAYQUI,Lechuga seda,0,,,,,
+T3,LA MOLINA,Lechuga seda,5,13.76,32.4,22.28,20.2,369.8
+T4,FAO,Acelga,0,,,,,
+T4,HIDROPONIKA,Acelga,5,18.94,12.6,24.62,22.919999999999998,123.2
+T4,INIA SUMAC-YUYAYQUI,Acelga,0,,,,,
+T4,LA MOLINA,Acelga,0,,,,,
+T4,FAO,Cebolla china,0,,,,,
+T4,HIDROPONIKA,Cebolla china,5,19.98,6.0,1.818,10.0,36.239999999999995
+T4,INIA SUMAC-YUYAYQUI,Cebolla china,0,,,,,
+T4,LA MOLINA,Cebolla china,0,,,,,
+T4,FAO,Lechuga crespa,0,,,,,
+T4,HIDROPONIKA,Lechuga crespa,5,16.34,27.2,21.44,20.4,242.6
+T4,INIA SUMAC-YUYAYQUI,Lechuga crespa,0,,,,,
+T4,LA MOLINA,Lechuga crespa,0,,,,,
+T4,FAO,Lechuga seda,0,,,,,
+T4,HIDROPONIKA,Lechuga seda,5,11.74,45.8,18.4,17.54,251.4
+T4,INIA SUMAC-YUYAYQUI,Lechuga seda,0,,,,,
+T4,LA MOLINA,Lechuga seda,0,,,,,

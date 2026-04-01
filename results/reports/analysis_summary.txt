@@ -1,0 +1,13 @@
+ANALISIS EXPLORATORIO DE HORTALIZAS EN SISTEMA NFT
+=================================================================
+Observaciones totales: 79
+Numero de columnas: 8
+Variables numericas analizadas: altura_hojas_cm, num_hojas, diametro_cm, longitud_raiz_cm, peso_fresco_g
+Numero de tratamientos: 4
+Numero de cultivos: 4
+
+Nota metodologica:
+- El tratamiento fue aplicado a nivel de modulo sin replica fisica independiente.
+- Las plantas evaluadas se interpretan como submuestras.
+- El ANOVA se reporta solo con fines exploratorios/descriptivos.
+- El PCA y los tamanos de efecto apoyan la interpretacion de patrones.
