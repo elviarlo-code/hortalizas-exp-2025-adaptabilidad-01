@@ -1,50 +1,67 @@
 # Evaluación exploratoria del desempeño agronómico de soluciones nutritivas en un sistema NFT bajo condiciones controladas de la costa norte del Perú
 
-## I. DATOS GENERALES DEL EXPERIMENTO
+Víctor Ramírez 1
+1 INIA - EEA Vista Florida  
 
-**Proyecto/Actividad:**  
-Producción hidropónica de hortalizas de hoja bajo sistema NFT para obtención de alimentos inocuos en la costa norte del Perú.
-
-**Localización:**
-- Región: Lambayeque  
-- Provincia: Chiclayo  
-- Distrito: Picsi  
-- Campo experimental: Área de hidroponía  
-- Altitud: 30 m s.n.m  
-
-**Ejecutor:**
-- Investigador: Víctor Ramírez Lora  
-- Apoyo técnico: Colaboradores de EEA Vista Florida  
-
-**Palabras clave:**  
-Hidroponía NFT, hortalizas de hoja, solución nutritiva, rendimiento, producción limpia, inocuidad.
+Exploratory evaluation of the agronomic performance of nutrient solutions in an NFT system under controlled conditions on the northern coast of Peru
 
 ---
 
 ## II. RESUMEN
 
-La presente investigación tuvo como objetivo evaluar comparativamente el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja (lechuga crespa, lechuga de seda, acelga y cebolla china) cultivadas en sistema hidropónico NFT, en condiciones de la costa norte del Perú.
+El objetivo del presente estudio fue evaluar de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja (lechuga crespa, lechuga de seda, acelga y cebolla china) cultivadas en un sistema hidropónico NFT, bajo condiciones de la costa norte del Perú.
 
-El experimento se desarrolló en cuatro módulos NFT independientes, cada uno equipado con su propio sistema de recirculación y asignado a un tratamiento específico: solución INIA Sumac-Yuyayqui, solución La Molina, solución FAO y solución comercial Hidroponika. En cada módulo se establecieron 80 plantas, distribuidas en cuatro cultivos con 20 plantas por cultivo.
+El experimento se desarrolló en cuatro módulos NFT independientes, cada uno asignado a un tratamiento: solución INIA Sumac-Yuyayqui (T1), solución La Molina (T2), solución FAO (T3) y solución comercial Hidroponika (T4). En cada módulo se establecieron 80 plantas distribuidas en cuatro cultivos. Para la evaluación biométrica se seleccionaron cinco plantas por cultivo, registrándose variables de crecimiento y biomasa.
 
-Para la evaluación biométrica se seleccionaron 5 plantas por cultivo en cada módulo, registrándose variables como altura de planta, número de hojas, diámetro, longitud radicular y peso fresco.
+El análisis de los datos se realizó mediante estadística descriptiva, análisis de varianza exploratorio, tamaños de efecto y análisis de componentes principales (PCA), considerando la ausencia de réplica experimental a nivel de módulo.
 
-El análisis de los datos se abordará mediante estadística descriptiva y análisis multivariado (PCA), complementado con análisis exploratorios de contraste entre tratamientos, con el objetivo de identificar patrones de respuesta y diferencias en el desempeño agronómico de las soluciones nutritivas.
+A nivel global, el mayor peso fresco promedio correspondió a T1 (209.22 g), seguido de T3 (195.24 g), T2 (185.16 g) y T4 (163.36 g). El PCA explicó el 81.47% de la varianza en los dos primeros componentes, evidenciando patrones diferenciados entre tratamientos asociados a biomasa y desarrollo radicular.
 
-Los resultados permitirán identificar tendencias en la eficiencia productiva de las soluciones evaluadas y su potencial aplicación en sistemas hidropónicos orientados a la producción de hortalizas inocuas para la agricultura familiar.
+Los resultados muestran que el desempeño de las soluciones nutritivas depende del cultivo y de la variable evaluada, evidenciando la existencia de interacciones tratamiento–cultivo. Asimismo, el análisis de tamaños de efecto permitió identificar diferencias relevantes entre tratamientos, especialmente en cebolla china.
 
+Se concluye que la solución INIA presenta un alto potencial productivo y que los resultados obtenidos constituyen evidencia preliminar para el desarrollo de tecnologías de nutrición hidropónica en sistemas NFT. Se recomienda realizar ensayos con réplica experimental para validar los hallazgos y avanzar hacia la liberación de una solución nutritiva adaptada a la agricultura familiar.
+
+**Palabras clave:**  
+Hidroponía NFT, hortalizas de hoja, solución nutritiva, rendimiento, producción limpia, inocuidad.
+
+## ABSTRACT
+
+The objective of this study was to evaluate, under an exploratory approach, the agronomic performance of four nutrient solutions in the production of leafy vegetables (curly lettuce, butterhead lettuce, chard, and green onion) grown in a Nutrient Film Technique (NFT) hydroponic system under conditions of the northern coast of Peru.
+
+The experiment was conducted using four independent NFT modules, each assigned to a specific treatment: INIA Sumac-Yuyayqui solution (T1), La Molina solution (T2), FAO solution (T3), and a commercial solution (Hidroponika, T4). Each module contained 80 plants distributed across four crops. Five plants per crop were selected for biometric evaluation, including growth and biomass variables.
+
+Data were analyzed using descriptive statistics, exploratory one-way ANOVA, effect size estimation, and Principal Component Analysis (PCA), considering the absence of experimental replication at the module level.
+
+At the global level, the highest mean fresh weight was observed in T1 (209.22 g), followed by T3 (195.24 g), T2 (185.16 g), and T4 (163.36 g). PCA explained 81.47% of the total variance in the first two components, revealing distinct patterns among treatments associated with biomass accumulation and root development.
+
+Results indicate that the performance of nutrient solutions depends on both crop type and evaluated variables, highlighting the presence of treatment–crop interactions. Effect size analysis further identified relevant differences among treatments, particularly in green onion.
+
+It is concluded that the INIA solution shows high productive potential, and the findings provide preliminary evidence for the development of hydroponic nutrient technologies in NFT systems. Further studies with experimental replication are recommended to validate these results and support the release of a nutrient solution technology adapted to family farming systems.
+
+Keywords: NFT hydroponics, leafy vegetables, nutrient solution, yield, clean production, safety.
 ---
 
 ## III. INTRODUCCIÓN
 
-La producción de hortalizas en sistemas hidropónicos representa una alternativa eficiente frente a las limitaciones de la agricultura convencional, especialmente en zonas áridas como la costa norte del Perú.
+La producción de hortalizas de hoja en sistemas hidropónicos ha experimentado un crecimiento sostenido en las últimas décadas debido a su alta eficiencia en el uso de agua, nutrientes y espacio, así como a su capacidad para producir alimentos inocuos en condiciones controladas. En particular, el sistema NFT (Nutrient Film Technique) se ha consolidado como una de las tecnologías más utilizadas para cultivos de ciclo corto, debido a su bajo consumo hídrico y alta eficiencia en la absorción de nutrientes (Sharma et al., 2018).
 
-El sistema NFT permite optimizar el uso del agua, nutrientes y espacio, garantizando una producción intensiva y sostenible. Además, reduce significativamente el uso de pesticidas, permitiendo obtener productos inocuos.
+En sistemas hidropónicos, el rendimiento y la calidad del cultivo dependen en gran medida de la composición de la solución nutritiva, la cual determina la disponibilidad y balance de los elementos esenciales para el crecimiento vegetal. Estudios recientes han demostrado que variaciones en la concentración y proporción de nutrientes pueden generar diferencias significativas en la acumulación de biomasa, desarrollo radicular y características morfológicas de las plantas (Savvas & Gruda, 2018; Gruda et al., 2019).
 
-Sin embargo, el rendimiento del sistema depende directamente del tipo de solución nutritiva empleada, ya que esta determina la disponibilidad de nutrientes esenciales para el crecimiento vegetal.
+En el contexto peruano, el uso de sistemas hidropónicos, particularmente NFT, ha sido promovido como una alternativa tecnológica para mejorar la productividad en condiciones de limitación de suelo y agua, especialmente en sistemas de agricultura familiar. Investigaciones realizadas en el país han demostrado que estos sistemas permiten obtener rendimientos competitivos en cultivos como lechuga, con mejoras en variables de crecimiento y eficiencia productiva en comparación con sistemas tradicionales (Ref. Tesis UAP) .
 
-En este contexto, el presente estudio tuvo como objetivo evaluar el comportamiento productivo y fisiológico de diferentes soluciones nutritivas en cultivos de lechuga, cebolla china y acelga bajo sistema NFT.
+Asimismo, en regiones de la costa norte del Perú, como Lambayeque y La Libertad, el desarrollo agrícola se caracteriza por condiciones climáticas favorables pero con restricciones hídricas y de calidad de suelo, lo que ha impulsado la adopción de tecnologías de producción más eficientes. En este contexto, iniciativas regionales han promovido el uso de sistemas hidropónicos como alternativa para la producción sostenible, destacando su capacidad para reducir el consumo de agua y mejorar la calidad de los productos agrícolas .
 
+Por otro lado, instituciones como el Instituto Nacional de Innovación Agraria (INIA) vienen impulsando procesos de investigación, validación y transferencia de tecnologías agrarias en distintas regiones del país, incluyendo la implementación de prácticas y capacitaciones en sistemas hidropónicos NFT en estaciones experimentales como Vista Florida en Lambayeque . Sin embargo, aún existe una limitada disponibilidad de soluciones nutritivas formuladas y validadas específicamente para condiciones locales, lo que constituye una brecha tecnológica relevante.
+
+Esta brecha es especialmente crítica para la agricultura familiar, donde el acceso a soluciones nutritivas eficientes, de bajo costo y adaptadas a condiciones locales puede determinar la viabilidad técnica y económica de los sistemas hidropónicos. En este sentido, el desarrollo de soluciones nutritivas propias representa una oportunidad estratégica para instituciones de investigación como el INIA, en el marco de procesos de innovación orientados a la liberación de tecnologías.
+
+El desarrollo de este tipo de tecnologías requiere un enfoque progresivo que incluya etapas de evaluación exploratoria, validación agronómica y ajuste en condiciones reales de producción, en concordancia con los enfoques de madurez tecnológica (TRL) aplicados a la innovación agrícola.
+
+En este contexto, el presente estudio tuvo como objetivo evaluar de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja (lechuga crespa, lechuga de seda, acelga y cebolla china) cultivadas en sistema NFT bajo condiciones de la costa norte del Perú.
+
+Se plantea como hipótesis que la solución nutritiva influye de manera diferenciada en el crecimiento y la acumulación de biomasa de los cultivos evaluados, y que es posible identificar patrones de desempeño que sirvan como base para el desarrollo de tecnologías de nutrición hidropónica adaptadas a condiciones locales.
+
+Los resultados de esta investigación buscan generar evidencia técnica inicial que contribuya al diseño, validación y futura liberación de una solución nutritiva hidropónica por parte del INIA, orientada a mejorar la productividad y sostenibilidad de sistemas NFT en la agricultura familiar.
 ---
 
 ## IV. MATERIALES Y MÉTODOS
@@ -215,9 +232,44 @@ Como recomendación, futuros ensayos deberían incorporar réplica de módulos p
 
 ## VIII. CONCLUSIONES
 
+El presente estudio permitió caracterizar de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en un sistema hidropónico NFT bajo condiciones de la costa norte del Perú.
+
+A nivel global, se identificaron diferencias en el comportamiento de las soluciones nutritivas, destacando la solución INIA (T1) por presentar el mayor peso fresco promedio, lo que sugiere su potencial como alternativa base para el desarrollo de tecnologías de nutrición hidropónica orientadas a la producción de hortalizas de hoja.
+
+Los resultados evidenciaron que la respuesta de los cultivos no fue uniforme entre soluciones nutritivas, observándose variaciones específicas por especie, lo cual resalta la importancia de considerar interacciones tratamiento–cultivo en la formulación de soluciones nutritivas para sistemas NFT.
+
+El análisis multivariado (PCA) permitió identificar patrones de asociación entre variables biométricas, diferenciando componentes relacionados con la acumulación de biomasa y el desarrollo radicular, lo que confirma el carácter multifactorial del rendimiento en sistemas hidropónicos.
+
+Asimismo, el uso de tamaños de efecto complementó la interpretación de los resultados, permitiendo identificar contrastes relevantes entre tratamientos incluso en ausencia de inferencia estadística formal.
+
+No obstante, los resultados deben interpretarse con cautela, debido a que los tratamientos fueron aplicados a nivel de módulo sin réplica experimental independiente, por lo que las diferencias observadas representan tendencias exploratorias.
+
+En conjunto, los hallazgos constituyen una base técnica inicial para el desarrollo y validación de soluciones nutritivas adaptadas a sistemas NFT en condiciones locales, contribuyendo al avance en el nivel de madurez tecnológica (TRL) de este tipo de innovaciones.
+
+Se recomienda que futuras investigaciones incorporen diseños experimentales con réplica de módulos, mayor tamaño muestral y evaluación en múltiples ciclos productivos, con el objetivo de validar los resultados obtenidos y avanzar hacia la liberación de una tecnología de solución nutritiva hidropónica por parte del INIA, orientada a la agricultura familiar.
 
 ---
 
 ## IX. REFERENCIAS
 
+Savvas, D., & Gruda, N. (2018). Application of soilless culture technologies in modern greenhouse production. European Journal of Horticultural Science, 83(5), 280–293.
 
+Gruda, N., et al. (2019). Increasing sustainability of growing media constituents and stand-alone substrates in soilless culture systems. Agronomy, 9(6), 298.
+
+Sharma, N., Acharya, S., Kumar, K., Singh, N., & Chaurasia, O. (2018). Hydroponics as an advanced technique for vegetable production: An overview. Journal of Soil and Water Conservation, 17(4), 364–371.
+
+Wasserstein, R. L., Schirm, A. L., & Lazar, N. A. (2019). Moving to a world beyond “p < 0.05”. The American Statistician, 73(sup1), 1–19.
+
+Savvas, D., & Gruda, N. (2018). Application of soilless culture technologies in modern greenhouse production. European Journal of Horticultural Science.
+
+Gruda, N., et al. (2019). Increasing sustainability of growing media constituents. Agronomy.
+
+Sharma, N., et al. (2018). Hydroponics as an advanced technique for vegetable production.
+
+Wasserstein, R. L., et al. (2019). Moving to a world beyond “p < 0.05”.
+
+(Tesis Perú NFT lechuga) – puedes citar como:
+Arcos, Benavides & Rodríguez (referenciado en estudios NFT en Perú)
+
+(Tesis o implementación NFT Perú):
+Huanaco Ticona, M. A. (2020). Sistema hidropónico NFT aplicado a agricultura familiar.
