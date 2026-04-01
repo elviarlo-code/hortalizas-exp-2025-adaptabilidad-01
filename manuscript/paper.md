@@ -1,4 +1,4 @@
-# Evaluación multivariada del desempeño agronómico de soluciones nutritivas en hortalizas de hoja bajo sistema NFT en condiciones de la costa norte del Perú
+# Evaluación exploratoria del desempeño agronómico de soluciones nutritivas en un sistema NFT bajo condiciones controladas de la costa norte del Perú
 
 ## I. DATOS GENERALES DEL EXPERIMENTO
 
