@@ -152,27 +152,72 @@ La hidroponía reduce el uso de agroquímicos, favoreciendo la producción limpi
 
 ---
 
-## VI. RESULTADOS Y DISCUSIÓN
+## VI. RESULTADOS
 
-El análisis de los resultados se abordará mediante un enfoque descriptivo y multivariado, con el objetivo de caracterizar el comportamiento de las soluciones nutritivas evaluadas bajo condiciones controladas de sistema NFT.
+### 6.1 Estadística descriptiva general
 
-Se analizarán las variables biométricas mediante estadística descriptiva, incluyendo medidas de tendencia central y dispersión, con el fin de comparar el desempeño agronómico entre tratamientos y cultivos.
+Se analizaron 79 observaciones correspondientes a cuatro tratamientos y cuatro cultivos. A nivel global, las medias fueron 19.26 cm para altura de hojas, 19.24 para número de hojas, 16.54 cm para diámetro, 19.80 cm para longitud de raíz y 188.28 g para peso fresco. Los coeficientes de variación oscilaron entre 26.59% (longitud radicular) y 58.41% (número de hojas), lo que confirma heterogeneidad entre submuestras (Tabla 1).
 
-Asimismo, se aplicará un análisis de componentes principales (PCA) para integrar las variables evaluadas y explorar patrones de respuesta, asociaciones entre variables y posibles agrupamientos de tratamientos en función de su desempeño.
+A nivel de tratamiento (agregado de cultivos), el mayor peso fresco medio correspondió a T1 (INIA Sumac‑Yuyayqui, 209.22 g), seguido de T3 (La Molina, 195.24 g), T2 (FAO, 185.16 g) y T4 (Hidroponika, 163.36 g) (Tabla 1; Tabla 2).
 
-Desde un enfoque fisiológico, se espera identificar diferencias en la asignación de recursos entre crecimiento estructural (altura) y acumulación de biomasa (peso fresco), lo cual permitirá interpretar la eficiencia de las soluciones nutritivas en términos de productividad.
+### 6.2 Comparación exploratoria entre tratamientos
 
-Los resultados serán discutidos en el contexto de la nutrición mineral y fisiología vegetal, considerando la disponibilidad y balance de nutrientes, así como su impacto en el crecimiento y desarrollo de las hortalizas de hoja.
+En el ANOVA exploratorio global, la mayor separación entre tratamientos se observó en longitud de raíz (F = 2.30; η² = 0.084), seguida de altura de hojas (F = 1.86; η² = 0.069). Para número de hojas, diámetro y peso fresco, los valores de F fueron menores (1.40, 0.73 y 0.68, respectivamente), con η² entre 0.026 y 0.053 (Tabla 3).
 
-El análisis permitirá identificar tendencias en el desempeño de las soluciones nutritivas evaluadas y su potencial aplicación en sistemas hidropónicos orientados a la producción de alimentos inocuos, reconociendo las limitaciones inferenciales del diseño experimental.
+Los diagramas de caja muestran solapamiento entre tratamientos para la mayoría de variables, aunque con tendencias diferenciales en peso fresco y altura de hojas (Figura 1a–1e). Debido a que cada tratamiento se aplicó a un único módulo NFT, estos contrastes se interpretan como patrones exploratorios y no como evidencia inferencial concluyente.
+
+### 6.3 Tamaños de efecto entre tratamientos
+
+En el análisis global por pares, el mayor tamaño de efecto absoluto se registró entre T1 y T4 para longitud de raíz (g de Hedges = 0.865), seguido por T2 vs T4 en altura de hojas (g = 0.728) y T1 vs T4 en número de hojas (g = −0.567) (Tabla 4). Para peso fresco global, el contraste de mayor magnitud fue T1 vs T4 (g = 0.439), de amplitud moderada.
+
+A nivel de cultivo, los mayores tamaños de efecto se concentraron en cebolla china, especialmente en comparaciones que incluyeron T4 (por ejemplo, altura de hojas T1 vs T4: g = 11.23; peso fresco T1 vs T4: g = 10.73) (Tabla 4). Estos valores deben leerse con cautela porque derivan de submuestras pequeñas por combinación tratamiento–cultivo.
+
+### 6.4 Análisis de componentes principales (PCA)
+
+En el PCA global, PC1 explicó 59.16% de la varianza y PC2 22.31%, acumulando 81.47% en los dos primeros componentes (Tabla 5; Figura 2 y Figura 3). En PC1 destacaron, por magnitud de carga, peso fresco (0.524), diámetro (0.466), altura de hojas (−0.462) y número de hojas (0.458). En PC2 predominó longitud de raíz (0.767) (Tabla 6).
+
+Los PCA por cultivo mostraron proporciones de varianza acumulada (PC1 + PC2) de 70.67% en acelga, 99.90% en cebolla china, 58.90% en lechuga crespa y 71.80% en lechuga seda (Tabla 5; Figura 4).
+
+### 6.5 Análisis por cultivo
+
+El patrón en peso fresco medio por cultivo fue consistente en identificar máximos y mínimos por tratamiento (Tabla 1):
+
+- **Lechuga crespa:** máximo en T2 (258.8 g) y mínimo en T3 (226.2 g).
+- **Lechuga seda:** máximo en T3 (369.8 g) y mínimo en T4 (251.4 g).
+- **Acelga:** máximo en T2 (160.8 g) y mínimo en T4 (123.2 g).
+- **Cebolla china:** máximo en T2 (79.2 g; valor igual al de T1) y mínimo en T4 (36.24 g).
+
+En ANOVA exploratorio por cultivo, se observaron F elevados en cebolla china para todas las variables (F entre 62.55 y 196.28; η² entre 0.921 y 0.974), mientras que en lechuga crespa y acelga los F fueron en general más bajos y heterogéneos (Tabla 7).
+
+### 6.6 Ranking de tratamientos
+
+El ranking global por peso fresco medio ubicó a T1 en primer lugar (209.22 g), seguido de T3 (195.24 g), T2 (185.16 g) y T4 (163.36 g) (Tabla 2). Este ordenamiento resume la productividad promedio agregada, sin reemplazar el análisis específico por cultivo.
+
 ---
 
+## VII. DISCUSIÓN
 
-## VII. CONCLUSIONES
+Los resultados indican un comportamiento diferencial de las soluciones nutritivas entre cultivos y variables biométricas, con un patrón general donde T1 y T3 tienden a ubicarse en posiciones favorables para biomasa global, mientras que T2 mostró ventajas puntuales por especie (principalmente en lechuga crespa, acelga y cebolla china para peso fresco).
+
+La separación moderada observada en el análisis global (ANOVA exploratorio y tamaños de efecto de magnitud baja a moderada en la mayoría de contrastes) sugiere que las diferencias entre soluciones no fueron uniformes en todas las variables. En términos agronómicos, esto es compatible con respuestas específicas de cada cultivo frente al balance iónico de la solución, más que con un “mejor tratamiento” universal.
+
+La estructura del PCA respalda esta lectura. El predominio de PC1 y PC2 en el análisis global, junto con las cargas altas de peso fresco, diámetro y número de hojas en PC1, sugiere un eje asociado al desempeño vegetativo-productivo, mientras que PC2 refleja principalmente variación radicular. En conjunto, esto sugiere que el rendimiento en NFT no depende de un único rasgo, sino de la combinación entre crecimiento aéreo y arquitectura de raíz.
+
+Los tamaños de efecto por cultivo refuerzan la presencia de interacciones tratamiento–cultivo de interés práctico. En cebolla china, los contrastes muy altos frente a T4 son coherentes con el menor rendimiento absoluto de ese tratamiento en dicha especie. No obstante, al tratarse de cinco plantas por combinación (y cuatro en un caso de lechuga seda), esas magnitudes deben interpretarse como señales para priorizar hipótesis de validación y no como estimadores definitivos de efecto poblacional.
+
+Desde la perspectiva aplicada, los resultados apoyan decisiones preliminares para sistemas NFT de agricultura familiar: (i) priorizar soluciones con mejor desempeño en biomasa para el cultivo objetivo, (ii) evitar extrapolar un ranking global como criterio único de selección, y (iii) mantener monitoreo por especie de variables de raíz y follaje para ajustar manejo nutricional.
+
+La principal limitación metodológica es estructural: cada solución se aplicó a un solo módulo, sin réplica física independiente a nivel experimental. Por ello, las plantas medidas constituyen submuestras dentro de cada módulo y no réplicas estrictamente independientes del tratamiento. En consecuencia, el ANOVA y los tamaños de efecto se utilizan aquí como herramientas exploratorias para describir tendencias.
+
+Como recomendación, futuros ensayos deberían incorporar réplica de módulos por tratamiento, mayor tamaño muestral por especie y al menos dos ciclos productivos, de modo que los patrones detectados en este estudio puedan contrastarse mediante inferencia formal y estimaciones más robustas para adopción tecnológica en hidroponía NFT.
+
+---
+
+## VIII. CONCLUSIONES
 
 
 ---
 
-## VIII. REFERENCIAS
+## IX. REFERENCIAS
 
 
