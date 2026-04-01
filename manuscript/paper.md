@@ -81,14 +81,57 @@ Las variables evaluadas fueron:
 - longitud radicular (cm)  
 - peso fresco (g)  
 
-### 4.5 Consideraciones del diseño experimental y análisis
-El estudio se planteó como una evaluación comparativa del desempeño agronómico de cuatro soluciones nutritivas bajo condiciones homogéneas de cultivo en sistema NFT, manteniendo constantes las condiciones ambientales y operativas, y variando únicamente la composición de la solución nutritiva entre módulos.
+### 4.5 Enfoque de análisis estadístico
 
-Dado que cada tratamiento fue aplicado a un único módulo independiente, el análisis estadístico se abordará principalmente desde una perspectiva descriptiva y multivariada, complementada con análisis exploratorios de contraste entre tratamientos.
+El análisis de datos se desarrolló bajo un enfoque descriptivo y exploratorio, considerando la naturaleza del diseño experimental, donde cada tratamiento fue aplicado a un único módulo NFT sin réplica física independiente.
 
-Adicionalmente, se realizará un análisis de componentes principales (PCA) con el objetivo de integrar las variables evaluadas y caracterizar el desempeño global de las soluciones nutritivas.
+Las plantas evaluadas (n = 5 por cultivo y tratamiento) se consideraron como submuestras dentro de cada combinación tratamiento–cultivo, por lo que los resultados se interpretaron con fines comparativos y no inferenciales estrictos. Este enfoque es consistente con recomendaciones recientes que sugieren complementar o sustituir la inferencia basada únicamente en valores p por análisis de magnitud de efecto y patrones multivariados en estudios con limitaciones experimentales (Ronald Wasserstein et al., 2019).
 
-Las inferencias estadísticas se interpretarán con cautela, reconociendo las limitaciones asociadas a la ausencia de réplica física del tratamiento a nivel de módulo.
+### 4.6 Estadística descriptiva
+
+Se calcularon estadísticas descriptivas globales y por tratamiento, cultivo y combinación tratamiento–cultivo, incluyendo media, desviación estándar, mediana, valores mínimo y máximo, así como el coeficiente de variación (CV, %).
+
+Estas métricas permitieron caracterizar la variabilidad y el comportamiento general de las variables biométricas evaluadas, proporcionando una base sólida para la interpretación agronómica de los resultados.
+
+### 4.7 Análisis de varianza (ANOVA exploratorio)
+
+Se realizó un análisis de varianza de una vía (ANOVA) para cada variable, considerando el tratamiento como factor fijo.
+
+Dado que los tratamientos no cuentan con réplica experimental a nivel de módulo, el ANOVA se utilizó únicamente como herramienta exploratoria para identificar posibles diferencias en las medias entre tratamientos, evitando inferencias estadísticas formales.
+
+Se reportaron los componentes de la varianza, incluyendo suma de cuadrados, grados de libertad, estadístico F y tamaño de efecto (η²), en línea con enfoques modernos que priorizan la interpretación de la magnitud de los efectos sobre la significancia estadística (Ronald Wasserstein et al., 2019).
+
+### 4.8 Tamaños de efecto entre tratamientos
+
+Para complementar el análisis comparativo, se calcularon tamaños de efecto entre pares de tratamientos mediante el estadístico d de Cohen y su corrección g de Hedges.
+
+Estos indicadores permiten cuantificar la magnitud de las diferencias entre tratamientos de manera independiente del tamaño de muestra, siendo especialmente útiles en estudios exploratorios o con limitaciones de réplica experimental (Daniël Lakens, 2013).
+
+### 4.9 Análisis de componentes principales (PCA)
+
+Se realizó un análisis de componentes principales (PCA) utilizando las variables biométricas estandarizadas (z-score), con el objetivo de reducir la dimensionalidad del conjunto de datos, identificar patrones multivariados, explorar asociaciones entre variables y caracterizar el desempeño global de los tratamientos.
+
+Se obtuvieron los scores de los componentes principales, las cargas (loadings) de las variables y la proporción de varianza explicada por cada componente.
+
+El PCA se aplicó tanto a nivel global como por cultivo, permitiendo analizar el comportamiento diferencial de las soluciones nutritivas en cada especie. Este enfoque es ampliamente utilizado para el análisis de datos multivariados en sistemas agrícolas complejos (Ian Jolliffe & Jorge Cadima, 2016; Jonathan Lever et al., 2017).
+
+### 4.10 Análisis de ranking de tratamientos
+
+Se elaboró un ranking de tratamientos basado en el peso fresco promedio (g), como indicador principal de productividad.
+
+Este análisis permitió establecer una jerarquía comparativa del desempeño agronómico de las soluciones nutritivas evaluadas, integrando la información agronómica en un criterio práctico de toma de decisiones.
+
+### 4.11 Visualización y análisis exploratorio
+
+Se generaron herramientas gráficas para apoyar la interpretación de los resultados, incluyendo diagramas de caja (boxplots), gráficos de dispersión de PCA, biplots y mapas de calor (heatmaps) de variables estandarizadas.
+
+Estas visualizaciones facilitaron la identificación de patrones, tendencias y posibles agrupamientos entre tratamientos y cultivos, reforzando la interpretación multivariada de los datos.
+
+### 4.12 Software y reproducibilidad
+
+El análisis se desarrolló utilizando Python (versión 3.x) y bibliotecas especializadas, incluyendo pandas, numpy, scikit-learn, seaborn y matplotlib.
+
+El flujo de análisis fue estructurado mediante scripts reproducibles, asegurando la trazabilidad y replicabilidad del proceso analítico.
 ---
 
 ## V. MARCO TEÓRICO
