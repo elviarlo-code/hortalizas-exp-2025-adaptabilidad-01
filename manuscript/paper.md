@@ -1,4 +1,4 @@
-# Evaluación comparativa del rendimiento, calidad y desarrollo vegetativo de lechuga, cebolla china y acelga en sistema NFT con soluciones nutritivas
+# Evaluación multivariada del desempeño agronómico de soluciones nutritivas en hortalizas de hoja bajo sistema NFT en condiciones de la costa norte del Perú
 
 ## I. DATOS GENERALES DEL EXPERIMENTO
 
@@ -13,8 +13,8 @@ Producción hidropónica de hortalizas de hoja bajo sistema NFT para obtención 
 - Altitud: 30 m s.n.m  
 
 **Ejecutor:**
-- Investigador: Nicolás Chucas  
-- Apoyo técnico: Personal de campo  
+- Investigador: Víctor Ramírez Lora  
+- Apoyo técnico: Colaboradores de EEA Vista Florida  
 
 **Palabras clave:**  
 Hidroponía NFT, hortalizas de hoja, solución nutritiva, rendimiento, producción limpia, inocuidad.
@@ -23,15 +23,16 @@ Hidroponía NFT, hortalizas de hoja, solución nutritiva, rendimiento, producci�
 
 ## II. RESUMEN
 
+
 La presente investigación tuvo como objetivo evaluar comparativamente el rendimiento, calidad y desarrollo vegetativo de tres hortalizas de hoja (lechuga, cebolla china y acelga) cultivadas en sistema hidropónico NFT bajo diferentes soluciones nutritivas, en condiciones de la costa norte del Perú.
 
 El experimento se desarrolló en cuatro módulos NFT con capacidad de 80 plantas cada uno, correspondientes a los tratamientos: solución INIA Sumac-Yuyayqui, solución La Molina, solución FAO y solución comercial Hidroponika.
 
 Se evaluaron variables biométricas como altura de planta, número de hojas, diámetro, longitud radicular y peso fresco.
 
-Los resultados evidenciaron diferencias significativas entre tratamientos (p < 0.05), destacando la solución INIA con el mayor rendimiento (209.22 g/planta), superando a las demás soluciones. La solución FAO presentó mayor altura (21.64 cm), sin traducirse en mayor acumulación de biomasa.
+El análisis de los datos se realizará mediante estadística inferencial, incluyendo análisis de varianza (ANOVA) y pruebas de comparación múltiple (Tukey), así como análisis multivariado (PCA), con el objetivo de identificar diferencias significativas entre tratamientos y patrones de respuesta integrados.
 
-Se concluye que la solución INIA optimiza la eficiencia productiva en sistemas NFT, siendo la alternativa más adecuada para la producción de hortalizas libres de pesticidas.
+Se espera que los resultados permitan identificar la solución nutritiva más eficiente en términos de productividad y desarrollo vegetal, contribuyendo al diseño de tecnologías hidropónicas orientadas a la producción de hortalizas inocuas y sostenibles para la agricultura familiar.
 
 ---
 
@@ -72,7 +73,7 @@ Se utilizaron 4 módulos hidropónicos NFT, cada uno con 80 plantas, totalizando
 
 ### 4.5 Diseño experimental
 Diseño completamente al azar (DCA) con análisis ANOVA y prueba de Tukey (p < 0.05).
-
+Adicionalmente, se realizará un análisis multivariado mediante Análisis de Componentes Principales (PCA), con el objetivo de integrar las variables evaluadas y caracterizar el desempeño global de los tratamientos.
 ---
 
 ## V. MARCO TEÓRICO
@@ -95,66 +96,25 @@ La hidroponía reduce el uso de agroquímicos, favoreciendo la producción limpi
 
 ## VI. RESULTADOS Y DISCUSIÓN
 
-### 6.1 Rendimiento productivo
-El ANOVA evidenció diferencias significativas (p < 0.05), destacando la solución INIA con mayor rendimiento.
+El análisis de los datos se abordará mediante un enfoque estadístico integral, considerando tanto métodos univariados como multivariados.
 
-### 6.2 Crecimiento vegetativo
-La solución FAO presentó mayor altura, sin traducirse en mayor biomasa.
+En primer lugar, se aplicará un análisis de varianza (ANOVA) para evaluar el efecto de los tratamientos (soluciones nutritivas), los cultivos y su interacción sobre las variables biométricas evaluadas (altura de planta, número de hojas, diámetro, longitud radicular y peso fresco). Posteriormente, se realizará la prueba de comparación múltiple de Tukey (p < 0.05) con el fin de identificar diferencias significativas entre tratamientos.
 
-### 6.3 Interpretación fisiológica
-- INIA: mayor biomasa  
-- FAO: mayor elongación  
+Adicionalmente, se implementará un análisis de componentes principales (PCA) para integrar las variables evaluadas y caracterizar el comportamiento global de los tratamientos. Este enfoque permitirá identificar patrones de respuesta, asociaciones entre variables y agrupamientos de soluciones nutritivas en función de su desempeño agronómico.
 
-### 6.4 Implicancia agronómica
-El peso fresco es la variable más relevante en cultivos de hoja.
+Desde un enfoque fisiológico, se espera observar diferencias en la asignación de recursos entre crecimiento estructural (altura) y acumulación de biomasa (peso fresco), lo cual permitiría interpretar la eficiencia metabólica de las soluciones nutritivas evaluadas.
 
+El análisis conjunto de los resultados permitirá identificar la solución nutritiva con mayor potencial productivo bajo condiciones de sistema NFT, así como su aplicabilidad en esquemas de producción hidropónica orientados a la agricultura familiar.
+
+Los resultados obtenidos serán discutidos en función de principios de nutrición vegetal y fisiología del crecimiento, considerando la disponibilidad de nutrientes, su absorción y su efecto sobre la producción de biomasa y desarrollo vegetativo.
 ---
 
-## TABLAS
-
-### Tabla 1. Lechuga
-
-| Tratamiento | Altura (cm) | Peso (g) | Grupo |
-|------------|------------|----------|------|
-| INIA | 20.5 | 215.3 | a |
-| La Molina | 19.2 | 198.4 | b |
-| FAO | 22.1 | 187.6 | c |
-| Hidroponika | 17.3 | 165.2 | d |
-
----
-
-### Tabla 2. Cebolla china
-
-| Tratamiento | Altura (cm) | Peso (g) | Grupo |
-|------------|------------|----------|------|
-| INIA | 19.8 | 205.6 | a |
-| La Molina | 18.5 | 192.3 | b |
-| FAO | 21.3 | 180.4 | c |
-| Hidroponika | 16.2 | 158.7 | d |
-
----
-
-### Tabla 3. Acelga
-
-| Tratamiento | Altura (cm) | Peso (g) | Grupo |
-|------------|------------|----------|------|
-| INIA | 19.7 | 206.8 | a |
-| La Molina | 18.4 | 194.9 | b |
-| FAO | 21.5 | 187.5 | c |
-| Hidroponika | 16.7 | 166.2 | d |
-
----
 
 ## VII. CONCLUSIONES
 
-- La solución INIA presentó el mayor rendimiento  
-- FAO favoreció crecimiento en altura  
-- Hidroponika fue la menos eficiente  
-- El sistema NFT permite producción limpia  
-- La nutrición balanceada es clave  
 
 ---
 
 ## VIII. REFERENCIAS
 
-(Se mantienen igual que en el documento original)
+
