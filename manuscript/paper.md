@@ -7,7 +7,7 @@ Exploratory evaluation of the agronomic performance of nutrient solutions in an 
 
 ---
 
-## II. RESUMEN
+## Resumen
 
 El objetivo del presente estudio fue evaluar de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja (lechuga crespa, lechuga de seda, acelga y cebolla china) cultivadas en un sistema hidropónico NFT, bajo condiciones de la costa norte del Perú.
 
@@ -24,7 +24,7 @@ Se concluye que la solución INIA presenta un alto potencial productivo y que lo
 **Palabras clave:**  
 Hidroponía NFT, hortalizas de hoja, solución nutritiva, rendimiento, producción limpia, inocuidad.
 
-## ABSTRACT
+## Abstract
 
 The objective of this study was to evaluate, under an exploratory approach, the agronomic performance of four nutrient solutions in the production of leafy vegetables (curly lettuce, butterhead lettuce, chard, and green onion) grown in a Nutrient Film Technique (NFT) hydroponic system under conditions of the northern coast of Peru.
 
@@ -38,10 +38,11 @@ Results indicate that the performance of nutrient solutions depends on both crop
 
 It is concluded that the INIA solution shows high productive potential, and the findings provide preliminary evidence for the development of hydroponic nutrient technologies in NFT systems. Further studies with experimental replication are recommended to validate these results and support the release of a nutrient solution technology adapted to family farming systems.
 
-Keywords: NFT hydroponics, leafy vegetables, nutrient solution, yield, clean production, safety.
+**Keywords:**
+ NFT hydroponics, leafy vegetables, nutrient solution, yield, clean production, safety.
 ---
 
-## III. INTRODUCCIÓN
+## 1. Introducción
 
 La producción de hortalizas de hoja en sistemas hidropónicos ha experimentado un crecimiento sostenido en las últimas décadas debido a su alta eficiencia en el uso de agua, nutrientes y espacio, así como a su capacidad para producir alimentos inocuos en condiciones controladas. En particular, el sistema NFT (Nutrient Film Technique) se ha consolidado como una de las tecnologías más utilizadas para cultivos de ciclo corto, debido a su bajo consumo hídrico y alta eficiencia en la absorción de nutrientes (Sharma et al., 2018).
 
@@ -64,12 +65,12 @@ Se plantea como hipótesis que la solución nutritiva influye de manera diferenc
 Los resultados de esta investigación buscan generar evidencia técnica inicial que contribuya al diseño, validación y futura liberación de una solución nutritiva hidropónica por parte del INIA, orientada a mejorar la productividad y sostenibilidad de sistemas NFT en la agricultura familiar.
 ---
 
-## IV. MATERIALES Y MÉTODOS
+## 2. Materiales y métodos
 
-### 4.1 Sistema experimental
+### 2.1 Sistema experimental
 El experimento se desarrolló en cuatro módulos hidropónicos NFT independientes, cada uno equipado con su propia bomba y sistema de recirculación de solución nutritiva. Cada módulo estuvo conformado por 8 canales con una capacidad total de 80 plantas.
 
-### 4.2 Tratamientos
+### 2.2 Tratamientos
 Se evaluaron cuatro soluciones nutritivas, asignadas a un módulo NFT independiente:
 
 - T1: solución INIA Sumac-Yuyayqui  
@@ -77,7 +78,7 @@ Se evaluaron cuatro soluciones nutritivas, asignadas a un módulo NFT independie
 - T3: solución FAO  
 - T4: solución Hidroponika  
 
-### 4.3 Material vegetal
+### 2.3 Material vegetal
 En cada módulo se establecieron cuatro cultivos de hortalizas de hoja:
 
 - Lechuga crespa  
@@ -87,7 +88,7 @@ En cada módulo se establecieron cuatro cultivos de hortalizas de hoja:
 
 Cada cultivo estuvo representado por 20 plantas por módulo, totalizando 80 plantas por módulo.
 
-### 4.4 Muestreo y variables evaluadas
+### 2.4 Muestreo y variables evaluadas
 Para las evaluaciones biométricas se seleccionaron 5 plantas por cultivo dentro de cada módulo. Las plantas evaluadas se consideraron submuestras dentro de cada combinación módulo–cultivo.
 
 Las variables evaluadas fueron:
@@ -98,19 +99,19 @@ Las variables evaluadas fueron:
 - longitud radicular (cm)  
 - peso fresco (g)  
 
-### 4.5 Enfoque de análisis estadístico
+### 2.5 Enfoque de análisis estadístico
 
 El análisis de datos se desarrolló bajo un enfoque descriptivo y exploratorio, considerando la naturaleza del diseño experimental, donde cada tratamiento fue aplicado a un único módulo NFT sin réplica física independiente.
 
 Las plantas evaluadas (n = 5 por cultivo y tratamiento) se consideraron como submuestras dentro de cada combinación tratamiento–cultivo, por lo que los resultados se interpretaron con fines comparativos y no inferenciales estrictos. Este enfoque es consistente con recomendaciones recientes que sugieren complementar o sustituir la inferencia basada únicamente en valores p por análisis de magnitud de efecto y patrones multivariados en estudios con limitaciones experimentales (Ronald Wasserstein et al., 2019).
 
-### 4.6 Estadística descriptiva
+### 2.6 Estadística descriptiva
 
 Se calcularon estadísticas descriptivas globales y por tratamiento, cultivo y combinación tratamiento–cultivo, incluyendo media, desviación estándar, mediana, valores mínimo y máximo, así como el coeficiente de variación (CV, %).
 
 Estas métricas permitieron caracterizar la variabilidad y el comportamiento general de las variables biométricas evaluadas, proporcionando una base sólida para la interpretación agronómica de los resultados.
 
-### 4.7 Análisis de varianza (ANOVA exploratorio)
+### 2.7 Análisis de varianza (ANOVA exploratorio)
 
 Se realizó un análisis de varianza de una vía (ANOVA) para cada variable, considerando el tratamiento como factor fijo.
 
@@ -118,13 +119,13 @@ Dado que los tratamientos no cuentan con réplica experimental a nivel de módul
 
 Se reportaron los componentes de la varianza, incluyendo suma de cuadrados, grados de libertad, estadístico F y tamaño de efecto (η²), en línea con enfoques modernos que priorizan la interpretación de la magnitud de los efectos sobre la significancia estadística (Ronald Wasserstein et al., 2019).
 
-### 4.8 Tamaños de efecto entre tratamientos
+### 2.8 Tamaños de efecto entre tratamientos
 
 Para complementar el análisis comparativo, se calcularon tamaños de efecto entre pares de tratamientos mediante el estadístico d de Cohen y su corrección g de Hedges.
 
 Estos indicadores permiten cuantificar la magnitud de las diferencias entre tratamientos de manera independiente del tamaño de muestra, siendo especialmente útiles en estudios exploratorios o con limitaciones de réplica experimental (Daniël Lakens, 2013).
 
-### 4.9 Análisis de componentes principales (PCA)
+### 2.9 Análisis de componentes principales (PCA)
 
 Se realizó un análisis de componentes principales (PCA) utilizando las variables biométricas estandarizadas (z-score), con el objetivo de reducir la dimensionalidad del conjunto de datos, identificar patrones multivariados, explorar asociaciones entre variables y caracterizar el desempeño global de los tratamientos.
 
@@ -132,70 +133,91 @@ Se obtuvieron los scores de los componentes principales, las cargas (loadings) d
 
 El PCA se aplicó tanto a nivel global como por cultivo, permitiendo analizar el comportamiento diferencial de las soluciones nutritivas en cada especie. Este enfoque es ampliamente utilizado para el análisis de datos multivariados en sistemas agrícolas complejos (Ian Jolliffe & Jorge Cadima, 2016; Jonathan Lever et al., 2017).
 
-### 4.10 Análisis de ranking de tratamientos
+### 2.10 Análisis de ranking de tratamientos
 
 Se elaboró un ranking de tratamientos basado en el peso fresco promedio (g), como indicador principal de productividad.
 
 Este análisis permitió establecer una jerarquía comparativa del desempeño agronómico de las soluciones nutritivas evaluadas, integrando la información agronómica en un criterio práctico de toma de decisiones.
 
-### 4.11 Visualización y análisis exploratorio
+### 2.11 Visualización y análisis exploratorio
 
 Se generaron herramientas gráficas para apoyar la interpretación de los resultados, incluyendo diagramas de caja (boxplots), gráficos de dispersión de PCA, biplots y mapas de calor (heatmaps) de variables estandarizadas.
 
 Estas visualizaciones facilitaron la identificación de patrones, tendencias y posibles agrupamientos entre tratamientos y cultivos, reforzando la interpretación multivariada de los datos.
 
-### 4.12 Software y reproducibilidad
+### 2.12 Software y reproducibilidad
 
 El análisis se desarrolló utilizando Python (versión 3.x) y bibliotecas especializadas, incluyendo pandas, numpy, scikit-learn, seaborn y matplotlib.
 
 El flujo de análisis fue estructurado mediante scripts reproducibles, asegurando la trazabilidad y replicabilidad del proceso analítico.
 ---
 
-## V. MARCO TEÓRICO
+## 3. Resultados
 
-### 5.1 Sistema NFT
-El sistema NFT (Nutrient Film Technique) es una técnica hidropónica basada en la circulación continua de una lámina delgada de solución nutritiva a través de canales donde se desarrollan las raíces de las plantas. Este sistema permite una adecuada oxigenación radicular y una alta eficiencia en el uso de agua y nutrientes.
+### 3.1 Estadística descriptiva general
 
-Según Resh (2022), el NFT es especialmente eficiente en cultivos de ciclo corto como las hortalizas de hoja.
+Se analizaron 79 observaciones correspondientes a cuatro tratamientos y cuatro cultivos. A nivel global, las medias fueron 19.26 cm para altura de hojas, 19.24 para número de hojas, 16.54 cm para diámetro, 19.80 cm para longitud de raíz y 188.28 g para peso fresco. Los coeficientes de variación oscilaron entre 26.59% (longitud radicular) y 58.41% (número de hojas), lo que confirma heterogeneidad entre submuestras **Tabla 1. Estadísticos descriptivos de variables biométricas por tratamiento y cultivo.**  
+![Tabla 1](hortalizas-exp-2025-adaptabilidad-01/results/tables/summary_descriptive_clean.csv)
+Fuente: Elaboración propia.
 
-### 5.2 Nutrición mineral
-Las hortalizas de hoja presentan altos requerimientos de nitrógeno, fósforo y potasio, fundamentales para el crecimiento vegetal.
+A nivel de tratamiento (agregado de cultivos), el mayor peso fresco medio correspondió a T1 (INIA Sumac‑Yuyayqui, 209.22 g), seguido de T3 (La Molina, 195.24 g), T2 (FAO, 185.16 g) y T4 (Hidroponika, 163.36 g) 
+**Tabla 2. Ranking de tratamientos basado en peso fresco promedio.** 
+ ![Tabla 2](hortalizas-exp-2025-adaptabilidad-01/results/tables/treatment_ranking_peso_fresco.csv)
+Fuente: Elaboración propia.
 
-### 5.3 Crecimiento vs biomasa
-El crecimiento en altura no siempre implica mayor biomasa, siendo esta última un mejor indicador de productividad.
+### 3.2 Comparación exploratoria entre tratamientos
 
-### 5.4 Producción sin pesticidas
-La hidroponía reduce el uso de agroquímicos, favoreciendo la producción limpia.
-
----
-
-## VI. RESULTADOS
-
-### 6.1 Estadística descriptiva general
-
-Se analizaron 79 observaciones correspondientes a cuatro tratamientos y cuatro cultivos. A nivel global, las medias fueron 19.26 cm para altura de hojas, 19.24 para número de hojas, 16.54 cm para diámetro, 19.80 cm para longitud de raíz y 188.28 g para peso fresco. Los coeficientes de variación oscilaron entre 26.59% (longitud radicular) y 58.41% (número de hojas), lo que confirma heterogeneidad entre submuestras (Tabla 1).
-
-A nivel de tratamiento (agregado de cultivos), el mayor peso fresco medio correspondió a T1 (INIA Sumac‑Yuyayqui, 209.22 g), seguido de T3 (La Molina, 195.24 g), T2 (FAO, 185.16 g) y T4 (Hidroponika, 163.36 g) (Tabla 1; Tabla 2).
-
-### 6.2 Comparación exploratoria entre tratamientos
-
-En el ANOVA exploratorio global, la mayor separación entre tratamientos se observó en longitud de raíz (F = 2.30; η² = 0.084), seguida de altura de hojas (F = 1.86; η² = 0.069). Para número de hojas, diámetro y peso fresco, los valores de F fueron menores (1.40, 0.73 y 0.68, respectivamente), con η² entre 0.026 y 0.053 (Tabla 3).
+En el ANOVA exploratorio global, la mayor separación entre tratamientos se observó en longitud de raíz (F = 2.30; η² = 0.084), seguida de altura de hojas (F = 1.86; η² = 0.069). Para número de hojas, diámetro y peso fresco, los valores de F fueron menores (1.40, 0.73 y 0.68, respectivamente), con η² entre 0.026 y 0.053 
+**Tabla 3. Resultados del análisis de varianza (ANOVA exploratorio) por variable.**  
+![Tabla 3](hortalizas-exp-2025-adaptabilidad-01/results/tables/anova_exploratory_global.csv)
+Fuente: Elaboración propia.
+**Figura 1. Distribución de variables biométricas por tratamiento.**  
+![Figura 1](hortalizas-exp-2025-adaptabilidad-01/results/figures/boxplot_altura_hojas_cm.png)
+Fuente: Elaboración propia.
 
 Los diagramas de caja muestran solapamiento entre tratamientos para la mayoría de variables, aunque con tendencias diferenciales en peso fresco y altura de hojas (Figura 1a–1e). Debido a que cada tratamiento se aplicó a un único módulo NFT, estos contrastes se interpretan como patrones exploratorios y no como evidencia inferencial concluyente.
 
-### 6.3 Tamaños de efecto entre tratamientos
+### 3.3 Tamaños de efecto entre tratamientos
 
 En el análisis global por pares, el mayor tamaño de efecto absoluto se registró entre T1 y T4 para longitud de raíz (g de Hedges = 0.865), seguido por T2 vs T4 en altura de hojas (g = 0.728) y T1 vs T4 en número de hojas (g = −0.567) (Tabla 4). Para peso fresco global, el contraste de mayor magnitud fue T1 vs T4 (g = 0.439), de amplitud moderada.
+**Tabla 4. Tamaños de efecto (g de Hedges) entre tratamientos.**  
+![Tabla 4](hortalizas-exp-2025-adaptabilidad-01/results/tables/effect_sizes_between_treatments.csv)
+Fuente: Elaboración propia.
 
 A nivel de cultivo, los mayores tamaños de efecto se concentraron en cebolla china, especialmente en comparaciones que incluyeron T4 (por ejemplo, altura de hojas T1 vs T4: g = 11.23; peso fresco T1 vs T4: g = 10.73) (Tabla 4). Estos valores deben leerse con cautela porque derivan de submuestras pequeñas por combinación tratamiento–cultivo.
 
-### 6.4 Análisis de componentes principales (PCA)
+### 3.4 Análisis de componentes principales (PCA)
 
 En el PCA global, PC1 explicó 59.16% de la varianza y PC2 22.31%, acumulando 81.47% en los dos primeros componentes (Tabla 5; Figura 2 y Figura 3). En PC1 destacaron, por magnitud de carga, peso fresco (0.524), diámetro (0.466), altura de hojas (−0.462) y número de hojas (0.458). En PC2 predominó longitud de raíz (0.767) (Tabla 6).
+**Tabla 5. Varianza explicada por componentes principales (PCA).**  
+![Tabla 5](hortalizas-exp-2025-adaptabilidad-01/results/tables/pca_variance_global.csv)
+Fuente: Elaboración propia.
+
+**Figura 2. Análisis de componentes principales (PCA) global de tratamientos.**  
+![Figura 2](hortalizas-exp-2025-adaptabilidad-01/results/figures/pca_scatter_global.png)
+![Figura 3](hortalizas-exp-2025-adaptabilidad-01/results/figures/pca_biplot_global.png)
+Fuente: Elaboración propia.
+
+**Figura 3. Biplot del análisis de componentes principales.**  
+Fuente: Elaboración propia.
+
+**Figura 4. Análisis de componentes principales por cultivo.**  
+![Figura 4](hortalizas-exp-2025-adaptabilidad-01/results/figures/pca_scatter_crop_lechuga_crespa.png)
+Fuente: Elaboración propia.
+
+
+**Tabla 6. Cargas de variables en los componentes principales (PCA).**  
+![Tabla 6](hortalizas-exp-2025-adaptabilidad-01/results/tables/pca_loadings_global.csv)
+Fuente: Elaboración propia.
+
+**Figura 5. Mapa de calor de variables estandarizadas por tratamiento y cultivo.**  
+![Figura 5](hortalizas-exp-2025-adaptabilidad-01/results/figures/heatmap_standardized_variables.png)
+Fuente: Elaboración propia.
+
 
 Los PCA por cultivo mostraron proporciones de varianza acumulada (PC1 + PC2) de 70.67% en acelga, 99.90% en cebolla china, 58.90% en lechuga crespa y 71.80% en lechuga seda (Tabla 5; Figura 4).
 
-### 6.5 Análisis por cultivo
+### 3.5 Análisis por cultivo
 
 El patrón en peso fresco medio por cultivo fue consistente en identificar máximos y mínimos por tratamiento (Tabla 1):
 
@@ -206,13 +228,13 @@ El patrón en peso fresco medio por cultivo fue consistente en identificar máxi
 
 En ANOVA exploratorio por cultivo, se observaron F elevados en cebolla china para todas las variables (F entre 62.55 y 196.28; η² entre 0.921 y 0.974), mientras que en lechuga crespa y acelga los F fueron en general más bajos y heterogéneos (Tabla 7).
 
-### 6.6 Ranking de tratamientos
+### 3.6 Ranking de tratamientos
 
 El ranking global por peso fresco medio ubicó a T1 en primer lugar (209.22 g), seguido de T3 (195.24 g), T2 (185.16 g) y T4 (163.36 g) (Tabla 2). Este ordenamiento resume la productividad promedio agregada, sin reemplazar el análisis específico por cultivo.
 
 ---
 
-## VII. DISCUSIÓN
+## 4. Discusión
 
 Los resultados indican un comportamiento diferencial de las soluciones nutritivas entre cultivos y variables biométricas, con un patrón general donde T1 y T3 tienden a ubicarse en posiciones favorables para biomasa global, mientras que T2 mostró ventajas puntuales por especie (principalmente en lechuga crespa, acelga y cebolla china para peso fresco).
 
@@ -230,7 +252,7 @@ Como recomendación, futuros ensayos deberían incorporar réplica de módulos p
 
 ---
 
-## VIII. CONCLUSIONES
+## 5. Conclusiones
 
 El presente estudio permitió caracterizar de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en un sistema hidropónico NFT bajo condiciones de la costa norte del Perú.
 
@@ -248,9 +270,13 @@ En conjunto, los hallazgos constituyen una base técnica inicial para el desarro
 
 Se recomienda que futuras investigaciones incorporen diseños experimentales con réplica de módulos, mayor tamaño muestral y evaluación en múltiples ciclos productivos, con el objetivo de validar los resultados obtenidos y avanzar hacia la liberación de una tecnología de solución nutritiva hidropónica por parte del INIA, orientada a la agricultura familiar.
 
+## 6. Disponibilidad de datos
+
+Los datos y procedimientos de análisis utilizados en este estudio están disponibles previa solicitud al autor de correspondencia. Asimismo, pueden ser puestos a disposición en un repositorio público con fines de reproducibilidad científica.
+
 ---
 
-## IX. REFERENCIAS
+## 7. Referencias
 
 Savvas, D., & Gruda, N. (2018). Application of soilless culture technologies in modern greenhouse production. European Journal of Horticultural Science, 83(5), 280–293.
 
