@@ -3,332 +3,575 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Proyecto Soluciones Nutritivas</title>
+  <title>Evaluación exploratoria del desempeño agronómico de soluciones nutritivas en un sistema NFT</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f7f2;
-      color: #1f1f1f;
-      line-height: 1.6;
+    :root{
+      --bg:#f5f7f4;
+      --card:#ffffff;
+      --ink:#1b1f1d;
+      --muted:#5f6b64;
+      --accent:#1f6b4f;
+      --accent-2:#dfeee6;
+      --line:#d9e2db;
+      --shadow:0 8px 24px rgba(19, 31, 23, 0.08);
+      --radius:18px;
+      --max:1100px;
     }
-    header {
-      background: linear-gradient(135deg, #2f6b3b, #6ea66c);
-      color: white;
-      padding: 50px 20px;
-      text-align: center;
+
+    *{box-sizing:border-box}
+
+    html{
+      scroll-behavior:smooth;
     }
-    header h1 {
-      margin: 0 0 10px;
-      font-size: 2.4rem;
+
+    body{
+      margin:0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:var(--bg);
+      color:var(--ink);
+      line-height:1.65;
     }
-    header p {
-      max-width: 800px;
-      margin: 0 auto;
-      font-size: 1.1rem;
+
+    .hero{
+      background:linear-gradient(135deg, #174d39 0%, #2d7a59 55%, #5da07f 100%);
+      color:white;
+      padding:72px 20px 56px;
     }
-    .container {
-      max-width: 1000px;
-      margin: 30px auto;
-      padding: 0 20px;
+
+    .hero-inner{
+      max-width:var(--max);
+      margin:0 auto;
     }
-    .card {
-      background: white;
-      padding: 25px;
-      margin-bottom: 20px;
-      border-radius: 14px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+
+    .badge{
+      display:inline-block;
+      padding:8px 14px;
+      border-radius:999px;
+      background:rgba(255,255,255,0.14);
+      backdrop-filter: blur(4px);
+      font-size:14px;
+      margin-bottom:18px;
     }
-    h2 {
-      color: #2f6b3b;
-      margin-top: 0;
+
+    .hero h1{
+      margin:0 0 16px;
+      font-size:clamp(2rem, 4vw, 3.2rem);
+      line-height:1.15;
+      max-width:980px;
     }
-    a.button {
-      display: inline-block;
-      padding: 12px 18px;
-      background: #2f6b3b;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      margin-top: 10px;
+
+    .hero p{
+      margin:0;
+      max-width:900px;
+      font-size:1.08rem;
+      color:rgba(255,255,255,0.92);
     }
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #666;
-      font-size: 0.95rem;
+
+    .meta{
+      max-width:var(--max);
+      margin: -26px auto 28px;
+      padding:0 20px;
     }
-    ul {
-      padding-left: 20px;
+
+    .meta-card{
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px 22px;
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap:14px;
+      border:1px solid rgba(255,255,255,0.4);
     }
-    table {
-  background: white;
-}
-th, td {
-  text-align: left;
-  vertical-align: top;
-}
-img {
-  margin-top: 10px;
-  margin-bottom: 25px;
-}
-h3 {
-  margin-top: 25px;
-  color: #2f6b3b;
-}
+
+    .meta-item small{
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+      margin-bottom:4px;
+    }
+
+    .meta-item strong{
+      font-size:15px;
+      color:var(--ink);
+    }
+
+    .container{
+      max-width:var(--max);
+      margin:0 auto 48px;
+      padding:0 20px;
+    }
+
+    .toc{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px 22px;
+      margin-bottom:24px;
+    }
+
+    .toc h2{
+      margin:0 0 10px;
+      font-size:1.15rem;
+      color:var(--accent);
+    }
+
+    .toc a{
+      color:var(--accent);
+      text-decoration:none;
+      margin-right:16px;
+      display:inline-block;
+      margin-bottom:8px;
+      font-weight:600;
+    }
+
+    .toc a:hover{
+      text-decoration:underline;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:28px 30px;
+      margin-bottom:24px;
+    }
+
+    .card h2{
+      margin:0 0 14px;
+      color:var(--accent);
+      font-size:clamp(1.45rem, 2vw, 2rem);
+      line-height:1.2;
+    }
+
+    .card h3{
+      margin:28px 0 12px;
+      color:var(--accent);
+      font-size:1.2rem;
+    }
+
+    .lead{
+      font-size:1.06rem;
+      color:#233129;
+    }
+
+    p{
+      margin:0 0 14px;
+    }
+
+    ul{
+      margin:10px 0 14px 20px;
+      padding:0;
+    }
+
+    li{
+      margin-bottom:8px;
+    }
+
+    .note{
+      background:var(--accent-2);
+      border-left:5px solid var(--accent);
+      padding:14px 16px;
+      border-radius:12px;
+      color:#234034;
+      margin-top:16px;
+    }
+
+    .grid-2{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap:18px;
+    }
+
+    .mini{
+      background:#fbfcfb;
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:16px 18px;
+    }
+
+    .mini h4{
+      margin:0 0 8px;
+      color:var(--accent);
+      font-size:1rem;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      background:white;
+      font-size:14px;
+    }
+
+    thead{
+      background:#edf4ef;
+    }
+
+    th, td{
+      border:1px solid #cad7ce;
+      padding:10px 10px;
+      text-align:left;
+      vertical-align:top;
+    }
+
+    .table-wrap{
+      overflow-x:auto;
+      margin-top:12px;
+      border-radius:14px;
+    }
+
+    figure{
+      margin:18px 0 26px;
+    }
+
+    figure img{
+      max-width:100%;
+      display:block;
+      border-radius:16px;
+      box-shadow:0 4px 14px rgba(0,0,0,0.10);
+      border:1px solid #d8e1db;
+    }
+
+    figcaption{
+      margin-top:10px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .cta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:18px;
+    }
+
+    .button{
+      display:inline-block;
+      padding:12px 18px;
+      background:var(--accent);
+      color:white;
+      text-decoration:none;
+      border-radius:12px;
+      font-weight:600;
+      transition:.2s ease;
+    }
+
+    .button:hover{
+      transform:translateY(-1px);
+      opacity:.95;
+    }
+
+    .button.secondary{
+      background:#eef4f0;
+      color:var(--accent);
+      border:1px solid var(--line);
+    }
+
+    footer{
+      max-width:var(--max);
+      margin:0 auto 36px;
+      padding:0 20px;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .footer-box{
+      background:transparent;
+      border-top:1px solid var(--line);
+      padding-top:18px;
+    }
+
+    @media (max-width: 640px){
+      .card{
+        padding:22px 18px;
+      }
+      .hero{
+        padding-top:56px;
+      }
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>🌱 Adaptabilidad de soluciones nutritivas</h1>
-  <p>
-    Proyecto de investigación orientado a evaluar el comportamiento de soluciones nutritivas
-    en hortalizas bajo condiciones experimentales, con enfoque en análisis técnico y aplicación práctica.
-  </p>
-</header>
-
-<div class="container">
-
-  <section class="card">
-    <h2>Resumen ejecutivo</h2>
-    <p>
-El presente estudio evaluó de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja (lechuga crespa, lechuga de seda, acelga y cebolla china) en un sistema hidropónico NFT bajo condiciones de la región Lambayeque, Perú.
-
-Se evaluaron cuatro tratamientos: solución INIA Sumac-Yuyayqui (T1), solución La Molina (T2), solución FAO (T3) y solución comercial Hidroponika (T4), utilizando módulos NFT independientes sin réplica experimental.
-
-A nivel global, el mayor peso fresco promedio correspondió a la solución INIA (209.22 g), seguida de La Molina (195.24 g), FAO (185.16 g) y Hidroponika (163.36 g).
-
-El análisis de componentes principales (PCA) explicó el 81.47% de la varianza total, evidenciando patrones diferenciados entre tratamientos asociados a biomasa y desarrollo radicular.
-
-Los resultados constituyen evidencia preliminar para el desarrollo de tecnologías de nutrición hidropónica adaptadas a condiciones locales y orientadas a la agricultura familiar.
-</p>
-  </section>
-
-  <section class="card">
-    <h2>Problema y justificación</h2>
-    <p>
-      La selección de una solución nutritiva adecuada es clave para mejorar el crecimiento, rendimiento
-      y eficiencia en sistemas de producción hortícola. Este estudio busca generar evidencia técnica que
-      contribuya a la toma de decisiones y a la posible validación de tecnologías adaptadas a condiciones locales.
-    </p>
-  </section>
-
-  <section class="card">
-    <h2>Metodología</h2>
-    <ul>
-  <li><strong>Ubicación:</strong> Estación Experimental Agraria Vista Florida – INIA.</li>
-  <li><strong>Sistema:</strong> Hidroponía tipo NFT con recirculación independiente por módulo.</li>
-  <li><strong>Tratamientos:</strong>
-    <ul>
-      <li>T1: INIA Sumac-Yuyayqui</li>
-      <li>T2: La Molina</li>
-      <li>T3: FAO</li>
-      <li>T4: Hidroponika</li>
-    </ul>
-  </li>
-  <li><strong>Cultivos:</strong> lechuga crespa, lechuga de seda, acelga y cebolla china.</li>
-  <li><strong>Unidad experimental:</strong> módulo NFT (80 plantas por módulo).</li>
-  <li><strong>Muestreo:</strong> 5 plantas por cultivo.</li>
-
-  <li><strong>Variables evaluadas:</strong>
-    <ul>
-      <li>Altura de planta</li>
-      <li>Número de hojas</li>
-      <li>Diámetro</li>
-      <li>Longitud de raíz</li>
-      <li>Peso fresco</li>
-    </ul>
-  </li>
-
-  <li><strong>Análisis:</strong>
-    <ul>
-      <li>Estadística descriptiva</li>
-      <li>ANOVA exploratorio</li>
-      <li>Tamaño de efecto (Cohen / Hedges)</li>
-      <li>Análisis multivariado (PCA)</li>
-    </ul>
-  </li>
-
-  <li><strong>Nota metodológica:</strong> Debido a la ausencia de réplica experimental a nivel de módulo, los resultados se interpretan como exploratorios.</li>
-</ul>
-  </section>
-
-  <section class="card">
-  <h2>Resultados</h2>
-  <p>
-    Se analizaron 79 observaciones correspondientes a cuatro tratamientos y cuatro cultivos.
-    A nivel global, la solución INIA presentó el mayor peso fresco promedio (209.22 g),
-    seguida de La Molina (195.24 g), FAO (185.16 g) e Hidroponika (163.36 g). :contentReference[oaicite:1]{index=1}
-  </p>
-</section>
-
-<section class="card">
-  <h2>Tabla 1. Estadísticos descriptivos por tratamiento y cultivo</h2>
-  <div style="overflow-x:auto;">
-    <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse; font-size:14px;">
-      <thead style="background:#eaf3e6;">
-        <tr>
-          <th>Tratamiento</th>
-          <th>Cultivo</th>
-          <th>Altura (cm)</th>
-          <th>Nº hojas</th>
-          <th>Diámetro (cm)</th>
-          <th>Longitud raíz (cm)</th>
-          <th>Peso fresco (g)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>INIA Sumac-Yuyayqui</td><td>Lechuga crespa</td><td>21.80 ± 2.55</td><td>21.20 ± 4.38</td><td>18.60 ± 2.07</td><td>18.80 ± 2.07</td><td>258.80 ± 46.12</td></tr>
-        <tr><td>INIA Sumac-Yuyayqui</td><td>Lechuga seda</td><td>20.40 ± 1.52</td><td>17.80 ± 1.30</td><td>15.60 ± 0.86</td><td>15.80 ± 0.86</td><td>369.80 ± 4.65</td></tr>
-        <tr><td>INIA Sumac-Yuyayqui</td><td>Acelga</td><td>18.20 ± 1.92</td><td>18.40 ± 2.30</td><td>16.40 ± 1.76</td><td>17.40 ± 1.76</td><td>160.80 ± 11.35</td></tr>
-        <tr><td>INIA Sumac-Yuyayqui</td><td>Cebolla china</td><td>16.60 ± 3.77</td><td>19.60 ± 5.13</td><td>15.40 ± 3.82</td><td>16.40 ± 3.82</td><td>79.20 ± 21.23</td></tr>
-
-        <tr><td>FAO</td><td>Lechuga crespa</td><td>19.60 ± 3.61</td><td>17.60 ± 4.67</td><td>16.80 ± 4.32</td><td>17.60 ± 4.32</td><td>226.20 ± 60.28</td></tr>
-        <tr><td>FAO</td><td>Lechuga seda</td><td>19.40 ± 1.52</td><td>17.80 ± 1.30</td><td>15.60 ± 0.86</td><td>15.80 ± 0.86</td><td>251.40 ± 4.65</td></tr>
-        <tr><td>FAO</td><td>Acelga</td><td>17.60 ± 2.30</td><td>17.40 ± 2.30</td><td>14.60 ± 2.06</td><td>15.60 ± 2.06</td><td>123.20 ± 51.14</td></tr>
-        <tr><td>FAO</td><td>Cebolla china</td><td>16.60 ± 3.83</td><td>19.60 ± 5.13</td><td>15.40 ± 3.28</td><td>16.40 ± 3.28</td><td>36.24 ± 25.76</td></tr>
-
-        <tr><td>La Molina</td><td>Lechuga crespa</td><td>20.20 ± 3.56</td><td>18.40 ± 4.83</td><td>17.40 ± 5.60</td><td>18.40 ± 5.60</td><td>195.24 ± 24.57</td></tr>
-        <tr><td>La Molina</td><td>Lechuga seda</td><td>21.40 ± 0.89</td><td>19.40 ± 0.55</td><td>16.80 ± 0.34</td><td>16.80 ± 0.34</td><td>369.80 ± 2.35</td></tr>
-        <tr><td>La Molina</td><td>Acelga</td><td>19.20 ± 3.49</td><td>19.40 ± 3.36</td><td>17.80 ± 6.63</td><td>18.40 ± 6.63</td><td>160.80 ± 16.05</td></tr>
-        <tr><td>La Molina</td><td>Cebolla china</td><td>17.60 ± 4.88</td><td>20.80 ± 5.02</td><td>16.40 ± 6.10</td><td>17.40 ± 6.10</td><td>79.20 ± 31.84</td></tr>
-
-        <tr><td>Hidroponika</td><td>Lechuga crespa</td><td>18.80 ± 3.42</td><td>17.00 ± 4.58</td><td>15.60 ± 4.44</td><td>16.60 ± 4.44</td><td>163.36 ± 26.09</td></tr>
-        <tr><td>Hidroponika</td><td>Lechuga seda</td><td>18.60 ± 0.55</td><td>16.80 ± 0.84</td><td>14.80 ± 0.35</td><td>15.20 ± 0.35</td><td>251.40 ± 2.12</td></tr>
-        <tr><td>Hidroponika</td><td>Acelga</td><td>16.80 ± 2.59</td><td>17.00 ± 2.24</td><td>14.20 ± 1.96</td><td>15.20 ± 1.96</td><td>123.20 ± 43.51</td></tr>
-        <tr><td>Hidroponika</td><td>Cebolla china</td><td>15.60 ± 2.88</td><td>18.40 ± 4.04</td><td>14.20 ± 1.85</td><td>15.20 ± 1.85</td><td>36.24 ± 19.48</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p><em>Fuente: Elaboración propia.</em></p>
-</section>
-
-<section class="card">
-  <h2>Tabla 2. Ranking de tratamientos basado en peso fresco promedio</h2>
-  <div style="overflow-x:auto;">
-    <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse; font-size:14px;">
-      <thead style="background:#eaf3e6;">
-        <tr>
-          <th>Tratamiento</th>
-          <th>Solución nutritiva</th>
-          <th>Peso fresco promedio (g)</th>
-          <th>Valor mínimo (g)</th>
-          <th>Valor máximo (g)</th>
-          <th>Ranking</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>T1</td><td>INIA Sumac-Yuyayqui</td><td>209.22</td><td>79.20</td><td>390.00</td><td>1</td></tr>
-        <tr><td>T3</td><td>La Molina</td><td>195.24</td><td>79.20</td><td>412.00</td><td>2</td></tr>
-        <tr><td>T2</td><td>FAO</td><td>185.16</td><td>36.24</td><td>331.00</td><td>3</td></tr>
-        <tr><td>T4</td><td>Hidroponika</td><td>163.36</td><td>36.24</td><td>289.00</td><td>4</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p><em>Fuente: Elaboración propia.</em></p>
-</section>
-
-<section class="card">
-  <h2>Tabla 3. Resultados del ANOVA exploratorio por variable</h2>
-  <div style="overflow-x:auto;">
-    <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse:collapse; font-size:14px;">
-      <thead style="background:#eaf3e6;">
-        <tr>
-          <th>Variable</th>
-          <th>F</th>
-          <th>η²</th>
-          <th>Interpretación del efecto</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Longitud de raíz (cm)</td><td>2.30</td><td>0.084</td><td>Efecto bajo–moderado</td></tr>
-        <tr><td>Altura de hojas (cm)</td><td>1.86</td><td>0.069</td><td>Efecto bajo</td></tr>
-        <tr><td>Número de hojas</td><td>1.40</td><td>0.053</td><td>Efecto bajo</td></tr>
-        <tr><td>Diámetro (cm)</td><td>0.73</td><td>0.026</td><td>Efecto bajo</td></tr>
-        <tr><td>Peso fresco (g)</td><td>0.68</td><td>0.026</td><td>Efecto bajo</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p><em>Fuente: Elaboración propia.</em></p>
-</section>
-
-<section class="card">
-  <h2>Gráficos exploratorios</h2>
-  <p>
-    Los diagramas de caja muestran solapamiento entre tratamientos para la mayoría de variables,
-    aunque con tendencias diferenciales en peso fresco y altura de hojas. El PCA global explicó
-    el 81.47% de la varianza total en los dos primeros componentes.
-  </p>
-
-  <h3>Figura 1. Boxplot de altura de hojas por tratamiento</h3>
-  <img src="img/boxplot_altura_hojas_cm.png" alt="Boxplot altura de hojas por tratamiento"
-       style="max-width:100%; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.12);">
-
-  <h3>Figura 2. Boxplot de longitud de raíz por tratamiento</h3>
-  <img src="img/boxplot_longitud_raiz_cm.png" alt="Boxplot longitud de raíz por tratamiento"
-       style="max-width:100%; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.12);">
-
-  <h3>Figura 3. Boxplot de peso fresco por tratamiento</h3>
-  <img src="img/boxplot_peso_fresco_g.png" alt="Boxplot peso fresco por tratamiento"
-       style="max-width:100%; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.12);">
-
-  <h3>Figura 4. PCA global de tratamientos</h3>
-  <img src="img/pca_biplot_global.png" alt="PCA global de tratamientos"
-       style="max-width:100%; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.12);">
-
-  <h3>Figura 5. Heatmap de variables estandarizadas</h3>
-  <img src="img/heatmap_standardized_variables.png" alt="Heatmap de variables estandarizadas"
-       style="max-width:100%; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.12);">
-</section>
-    <h2>Discusión</h2>
-   <p>
-Los resultados evidencian un comportamiento diferencial de las soluciones nutritivas dependiendo del cultivo y de la variable evaluada, confirmando la existencia de interacciones tratamiento–cultivo.
-
-La solución INIA mostró un desempeño consistentemente alto en biomasa, mientras que otras soluciones presentaron ventajas específicas por cultivo, lo que sugiere que no existe una solución universal óptima.
-
-El análisis PCA refuerza esta interpretación al mostrar que el rendimiento no depende de una sola variable, sino de la interacción entre crecimiento vegetativo y desarrollo radicular.
-
-desde una perspectiva aplicada, estos resultados permiten orientar decisiones en sistemas hidropónicos NFT, priorizando soluciones según cultivo objetivo y evitando generalizaciones basadas únicamente en promedios globales.
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="badge">Proyecto científico · Hidroponía NFT · Lambayeque, Perú</div>
+      <h1>Evaluación exploratoria del desempeño agronómico de soluciones nutritivas en un sistema NFT bajo condiciones controladas de la región Lambayeque</h1>
+      <p>
+        Estudio orientado a comparar cuatro soluciones nutritivas en hortalizas de hoja cultivadas en sistema hidropónico NFT, con enfoque exploratorio, análisis multivariado y proyección tecnológica para agricultura familiar.
       </p>
-   </section>
-  <section class="card">
-    <h2>Conclusiones</h2>
-    <p>
-<p>
-El estudio permitió caracterizar de manera exploratoria el desempeño de cuatro soluciones nutritivas en condiciones de la región Lambayeque.
+    </div>
+  </header>
 
-La solución INIA presentó el mayor peso fresco promedio, evidenciando su potencial como base para el desarrollo de tecnologías de nutrición hidropónica.
-
-Se identificaron variaciones específicas por cultivo, lo que resalta la importancia de considerar interacciones tratamiento–cultivo en la formulación de soluciones nutritivas.
-
-El análisis multivariado confirmó que el rendimiento en sistemas NFT es un fenómeno multifactorial, asociado tanto a biomasa como a desarrollo radicular.
-
-Los resultados constituyen evidencia preliminar y deben ser validados mediante ensayos con réplica experimental para avanzar hacia la liberación de una tecnología aplicable a la agricultura familiar.
-</p>
-  </section>
-<section class="card">
-    <h2>TRL</h2>
-    <<p>
-La tecnología evaluada se encuentra actualmente en un nivel TRL 3–4, correspondiente a validación experimental en entorno controlado.
-Los resultados obtenidos constituyen una base técnica para avanzar hacia fases de validación en condiciones reales de producción, con miras a la liberación de una solución nutritiva adaptada a sistemas NFT en la agricultura familiar.
-</p>
-  </section>
-  <section class="card">
-    <h2>Acceso técnico</h2>
-    <p>
-      El repositorio completo del proyecto contiene archivos, documentos, scripts y otros insumos técnicos relacionados con la investigación.
-    </p>
-    <a class="button" href="https://github.com/elviarlo-code/hortalizas-exp-2025-adaptabilidad-01" target="_blank">
-      Ver repositorio completo
-    </a>
+  <section class="meta">
+    <div class="meta-card">
+      <div class="meta-item">
+        <small>Autores</small>
+        <strong>Víctor Ramírez, Saúl Perez, Jovany Bobadilla</strong>
+      </div>
+      <div class="meta-item">
+        <small>Afiliación</small>
+        <strong>INIA – EEA Vista Florida</strong>
+      </div>
+      <div class="meta-item">
+        <small>Sistema</small>
+        <strong>Hidroponía NFT</strong>
+      </div>
+      <div class="meta-item">
+        <small>Enfoque</small>
+        <strong>Exploratorio y multivariado</strong>
+      </div>
+    </div>
   </section>
 
-</div>
+  <main class="container">
 
-<footer>
-  Proyecto científico publicado con GitHub Pages
-</footer>
+    <section class="toc">
+      <h2>Contenido</h2>
+      <a href="#resumen">Resumen</a>
+      <a href="#introduccion">Introducción</a>
+      <a href="#metodologia">Metodología</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#graficos">Figuras</a>
+      <a href="#discusion">Discusión</a>
+      <a href="#conclusiones">Conclusiones</a>
+      <a href="#trl">TRL y proyección</a>
+      <a href="#repositorio">Repositorio</a>
+    </section>
+
+    <section class="card" id="resumen">
+      <h2>Resumen</h2>
+      <p class="lead">
+        El presente estudio evaluó de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en la producción de hortalizas de hoja —lechuga crespa, lechuga de seda, acelga y cebolla china— cultivadas en un sistema hidropónico NFT bajo condiciones de la región Lambayeque, Perú.
+      </p>
+      <p>
+        Se compararon cuatro tratamientos: solución INIA Sumac-Yuyayqui (T1), solución La Molina (T2), solución FAO (T3) y solución comercial Hidroponika (T4), empleando módulos NFT independientes. El análisis integró estadística descriptiva, ANOVA exploratorio, tamaños de efecto y análisis de componentes principales (PCA), considerando la ausencia de réplica experimental a nivel de módulo.
+      </p>
+      <p>
+        A nivel global, el mayor peso fresco promedio correspondió a T1 (209.22 g), seguido de T3 (195.24 g), T2 (185.16 g) y T4 (163.36 g). El PCA explicó el 81.47% de la varianza total en los dos primeros componentes, evidenciando patrones diferenciados entre tratamientos asociados a biomasa y desarrollo radicular.
+      </p>
+    </section>
+
+    <section class="card" id="introduccion">
+      <h2>Introducción</h2>
+      <p>
+        La hidroponía NFT constituye una alternativa tecnológica de alta eficiencia para la producción de hortalizas de hoja, especialmente en contextos donde existen restricciones de suelo, agua o calidad ambiental. En estos sistemas, la solución nutritiva cumple un rol central al determinar la disponibilidad y balance de nutrientes esenciales para el crecimiento vegetal.
+      </p>
+      <p>
+        En el contexto de Lambayeque, el desarrollo de soluciones nutritivas adaptadas a condiciones locales representa una brecha tecnológica relevante, particularmente para sistemas orientados a agricultura familiar. Este estudio aporta evidencia técnica inicial para identificar patrones de desempeño agronómico y orientar futuras etapas de validación y escalamiento.
+      </p>
+    </section>
+
+    <section class="card" id="metodologia">
+      <h2>Metodología</h2>
+      <div class="grid-2">
+        <div class="mini">
+          <h4>Sistema experimental</h4>
+          <p>Cuatro módulos hidropónicos NFT independientes, cada uno con recirculación propia y capacidad de 80 plantas.</p>
+        </div>
+        <div class="mini">
+          <h4>Tratamientos</h4>
+          <p>T1: INIA Sumac-Yuyayqui · T2: La Molina · T3: FAO · T4: Hidroponika.</p>
+        </div>
+        <div class="mini">
+          <h4>Cultivos evaluados</h4>
+          <p>Lechuga crespa, lechuga de seda, acelga y cebolla china.</p>
+        </div>
+        <div class="mini">
+          <h4>Variables</h4>
+          <p>Altura de hojas, número de hojas, diámetro, longitud de raíz y peso fresco.</p>
+        </div>
+      </div>
+
+      <h3>Enfoque analítico</h3>
+      <ul>
+        <li>Estadística descriptiva por tratamiento y cultivo.</li>
+        <li>ANOVA exploratorio de una vía.</li>
+        <li>Tamaños de efecto mediante d de Cohen y g de Hedges.</li>
+        <li>Análisis de componentes principales (PCA).</li>
+        <li>Visualización mediante boxplots, biplot y heatmap.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Nota metodológica.</strong> Debido a que cada tratamiento fue aplicado a un único módulo NFT sin réplica física independiente, los resultados se interpretan como exploratorios y comparativos, no como evidencia inferencial concluyente.
+      </div>
+    </section>
+
+    <section class="card" id="resultados">
+      <h2>Resultados</h2>
+      <p>
+        Se analizaron 79 observaciones correspondientes a cuatro tratamientos y cuatro cultivos. A nivel global, la solución INIA presentó el mayor peso fresco promedio (209.22 g), seguida de La Molina (195.24 g), FAO (185.16 g) e Hidroponika (163.36 g).
+      </p>
+      <p>
+        El ANOVA exploratorio mostró efectos de magnitud baja a moderada, destacando la longitud de raíz (η² = 0.084) y la altura de hojas (η² = 0.069) como variables con mayor sensibilidad al tratamiento.
+      </p>
+      <p>
+        Los tamaños de efecto indicaron diferencias relevantes entre tratamientos, especialmente entre la solución INIA y la solución Hidroponika, con contrastes moderados a altos en variables relacionadas con biomasa y desarrollo radicular.
+      </p>
+
+      <h3>Tabla 1. Estadísticos descriptivos por tratamiento y cultivo</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tratamiento</th>
+              <th>Cultivo</th>
+              <th>Altura (cm)</th>
+              <th>Nº hojas</th>
+              <th>Diámetro (cm)</th>
+              <th>Longitud raíz (cm)</th>
+              <th>Peso fresco (g)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>INIA Sumac-Yuyayqui</td><td>Lechuga crespa</td><td>21.80 ± 2.55</td><td>21.20 ± 4.38</td><td>18.60 ± 2.07</td><td>18.80 ± 2.07</td><td>258.80 ± 46.12</td></tr>
+            <tr><td>INIA Sumac-Yuyayqui</td><td>Lechuga seda</td><td>20.40 ± 1.52</td><td>17.80 ± 1.30</td><td>15.60 ± 0.86</td><td>15.80 ± 0.86</td><td>369.80 ± 4.65</td></tr>
+            <tr><td>INIA Sumac-Yuyayqui</td><td>Acelga</td><td>18.20 ± 1.92</td><td>18.40 ± 2.30</td><td>16.40 ± 1.76</td><td>17.40 ± 1.76</td><td>160.80 ± 11.35</td></tr>
+            <tr><td>INIA Sumac-Yuyayqui</td><td>Cebolla china</td><td>16.60 ± 3.77</td><td>19.60 ± 5.13</td><td>15.40 ± 3.82</td><td>16.40 ± 3.82</td><td>79.20 ± 21.23</td></tr>
+
+            <tr><td>FAO</td><td>Lechuga crespa</td><td>19.60 ± 3.61</td><td>17.60 ± 4.67</td><td>16.80 ± 4.32</td><td>17.60 ± 4.32</td><td>226.20 ± 60.28</td></tr>
+            <tr><td>FAO</td><td>Lechuga seda</td><td>19.40 ± 1.52</td><td>17.80 ± 1.30</td><td>15.60 ± 0.86</td><td>15.80 ± 0.86</td><td>251.40 ± 4.65</td></tr>
+            <tr><td>FAO</td><td>Acelga</td><td>17.60 ± 2.30</td><td>17.40 ± 2.30</td><td>14.60 ± 2.06</td><td>15.60 ± 2.06</td><td>123.20 ± 51.14</td></tr>
+            <tr><td>FAO</td><td>Cebolla china</td><td>16.60 ± 3.83</td><td>19.60 ± 5.13</td><td>15.40 ± 3.28</td><td>16.40 ± 3.28</td><td>36.24 ± 25.76</td></tr>
+
+            <tr><td>La Molina</td><td>Lechuga crespa</td><td>20.20 ± 3.56</td><td>18.40 ± 4.83</td><td>17.40 ± 5.60</td><td>18.40 ± 5.60</td><td>195.24 ± 24.57</td></tr>
+            <tr><td>La Molina</td><td>Lechuga seda</td><td>21.40 ± 0.89</td><td>19.40 ± 0.55</td><td>16.80 ± 0.34</td><td>16.80 ± 0.34</td><td>369.80 ± 2.35</td></tr>
+            <tr><td>La Molina</td><td>Acelga</td><td>19.20 ± 3.49</td><td>19.40 ± 3.36</td><td>17.80 ± 6.63</td><td>18.40 ± 6.63</td><td>160.80 ± 16.05</td></tr>
+            <tr><td>La Molina</td><td>Cebolla china</td><td>17.60 ± 4.88</td><td>20.80 ± 5.02</td><td>16.40 ± 6.10</td><td>17.40 ± 6.10</td><td>79.20 ± 31.84</td></tr>
+
+            <tr><td>Hidroponika</td><td>Lechuga crespa</td><td>18.80 ± 3.42</td><td>17.00 ± 4.58</td><td>15.60 ± 4.44</td><td>16.60 ± 4.44</td><td>163.36 ± 26.09</td></tr>
+            <tr><td>Hidroponika</td><td>Lechuga seda</td><td>18.60 ± 0.55</td><td>16.80 ± 0.84</td><td>14.80 ± 0.35</td><td>15.20 ± 0.35</td><td>251.40 ± 2.12</td></tr>
+            <tr><td>Hidroponika</td><td>Acelga</td><td>16.80 ± 2.59</td><td>17.00 ± 2.24</td><td>14.20 ± 1.96</td><td>15.20 ± 1.96</td><td>123.20 ± 43.51</td></tr>
+            <tr><td>Hidroponika</td><td>Cebolla china</td><td>15.60 ± 2.88</td><td>18.40 ± 4.04</td><td>14.20 ± 1.85</td><td>15.20 ± 1.85</td><td>36.24 ± 19.48</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Tabla 2. Ranking de tratamientos basado en peso fresco promedio</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tratamiento</th>
+              <th>Solución nutritiva</th>
+              <th>Peso fresco promedio (g)</th>
+              <th>Valor mínimo (g)</th>
+              <th>Valor máximo (g)</th>
+              <th>Ranking</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>T1</td><td>INIA Sumac-Yuyayqui</td><td>209.22</td><td>79.20</td><td>390.00</td><td>1</td></tr>
+            <tr><td>T3</td><td>La Molina</td><td>195.24</td><td>79.20</td><td>412.00</td><td>2</td></tr>
+            <tr><td>T2</td><td>FAO</td><td>185.16</td><td>36.24</td><td>331.00</td><td>3</td></tr>
+            <tr><td>T4</td><td>Hidroponika</td><td>163.36</td><td>36.24</td><td>289.00</td><td>4</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Tabla 3. Resultados del ANOVA exploratorio por variable</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Variable</th>
+              <th>F</th>
+              <th>η²</th>
+              <th>Interpretación del efecto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Longitud de raíz (cm)</td><td>2.30</td><td>0.084</td><td>Efecto bajo–moderado</td></tr>
+            <tr><td>Altura de hojas (cm)</td><td>1.86</td><td>0.069</td><td>Efecto bajo</td></tr>
+            <tr><td>Número de hojas</td><td>1.40</td><td>0.053</td><td>Efecto bajo</td></tr>
+            <tr><td>Diámetro (cm)</td><td>0.73</td><td>0.026</td><td>Efecto bajo</td></tr>
+            <tr><td>Peso fresco (g)</td><td>0.68</td><td>0.026</td><td>Efecto bajo</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card" id="graficos">
+      <h2>Figuras y análisis visual</h2>
+      <p>
+        Los diagramas de caja muestran solapamiento entre tratamientos para la mayoría de variables, aunque con tendencias diferenciales en peso fresco y altura de hojas. El PCA global explicó el 81.47% de la varianza total en los dos primeros componentes.
+      </p>
+
+      <figure>
+        <img src="img/boxplot_altura_hojas_cm.png" alt="Boxplot de altura de hojas por tratamiento">
+        <figcaption><strong>Figura 1.</strong> Distribución de la altura de hojas por tratamiento.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/boxplot_longitud_raiz_cm.png" alt="Boxplot de longitud de raíz por tratamiento">
+        <figcaption><strong>Figura 2.</strong> Distribución de la longitud de raíz por tratamiento.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/boxplot_peso_fresco_g.png" alt="Boxplot de peso fresco por tratamiento">
+        <figcaption><strong>Figura 3.</strong> Distribución del peso fresco por tratamiento.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/pca_biplot_global.png" alt="PCA global de tratamientos">
+        <figcaption><strong>Figura 4.</strong> Biplot del análisis de componentes principales a nivel global.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/heatmap_standardized_variables.png" alt="Heatmap de variables estandarizadas">
+        <figcaption><strong>Figura 5.</strong> Mapa de calor de variables estandarizadas por tratamiento y cultivo.</figcaption>
+      </figure>
+    </section>
+
+    <section class="card" id="discusion">
+      <h2>Discusión</h2>
+      <p>
+        Los resultados evidencian un comportamiento diferencial de las soluciones nutritivas según cultivo y variable biométrica, confirmando la presencia de interacciones tratamiento–cultivo de interés agronómico. La solución INIA mostró un desempeño global favorable en biomasa, mientras que otras soluciones presentaron ventajas puntuales por especie.
+      </p>
+      <p>
+        La estructura del PCA respalda esta interpretación al mostrar que el rendimiento no depende de una única variable, sino de la interacción entre crecimiento vegetativo, acumulación de biomasa y desarrollo radicular. Esto sugiere que la selección de una solución nutritiva no debe basarse únicamente en un ranking global, sino en la respuesta específica del cultivo objetivo.
+      </p>
+    </section>
+
+    <section class="card" id="conclusiones">
+      <h2>Conclusiones</h2>
+      <p>
+        El estudio permitió caracterizar de manera exploratoria el desempeño agronómico de cuatro soluciones nutritivas en un sistema hidropónico NFT bajo condiciones de Lambayeque. A nivel global, la solución INIA presentó el mayor peso fresco promedio, lo que respalda su potencial como base para el desarrollo de una tecnología de nutrición hidropónica adaptada a condiciones locales.
+      </p>
+      <p>
+        Los resultados también evidenciaron respuestas diferenciales según especie, destacando la necesidad de considerar interacciones tratamiento–cultivo en procesos de formulación y validación tecnológica.
+      </p>
+    </section>
+
+    <section class="card" id="trl">
+      <h2>TRL y proyección tecnológica</h2>
+      <p>
+        La tecnología evaluada se ubica en una fase de validación experimental en entorno controlado, equivalente a un nivel TRL 3–4. Los hallazgos generados constituyen una base técnica para futuras etapas de validación con réplica experimental, evaluación en condiciones reales de producción y posible liberación de una solución nutritiva orientada a agricultura familiar.
+      </p>
+    </section>
+
+    <section class="card" id="repositorio">
+      <h2>Repositorio técnico</h2>
+      <p>
+        El repositorio reúne scripts de análisis, resultados exploratorios, figuras y materiales asociados al estudio, contribuyendo a la trazabilidad y reproducibilidad del proceso analítico.
+      </p>
+      <div class="cta">
+        <a class="button" href="https://github.com/elviarlo-code/hortalizas-exp-2025-adaptabilidad-01" target="_blank">Ver repositorio en GitHub</a>
+        <a class="button secondary" href="#graficos">Ir a figuras</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-box">
+      Proyecto científico publicado con GitHub Pages · INIA – EEA Vista Florida · 2025
+    </div>
+  </footer>
 
 </body>
 </html>
